@@ -74,7 +74,7 @@ function validateOtp(number) {
   const data = $("#registration-form").serialize();
 
   const phone_number = $('input[name="phone_number"]').val();
-
+  $('#no_otp_forward').text(`${phone_number}`);
   $.ajax({
     method: "POST",
     url: `/otp/validate/${phone_number}/${number}`,

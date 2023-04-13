@@ -789,7 +789,7 @@
               
                      <div class="title">
                         <h3>VERIFIKASI OTP</h3>
-                        <p class="info">Kode otp telah dikirim ke 6289506373551</p>
+                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">6289506373551</span></p>
                         <p class="msg">Masukan kode otp</p>
                      </div>
                      <div class="otp-input-fields">
