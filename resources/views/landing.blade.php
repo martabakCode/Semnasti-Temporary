@@ -678,7 +678,7 @@
                            <button class="but submit" type="submit">Klik untuk mendaftar</button>
                         </div>
                         <div class="col-sm-12">
-                           <p>* Kami tidak membagihan informasi anda kepada siapapun.</p>
+                           <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
                         </div>
                      </form>
                   </div>
