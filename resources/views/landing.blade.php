@@ -60,7 +60,8 @@
                   <div class="row">
                      <div class="col-md-2">
                         <a class="scroll logo" href="#wrapper">
-                           <h2>events</h2>
+                           {{-- <h2>events</h2> --}}
+                           <img src="{{ asset('landing/img/semnasti/logo-h700.png') }}" style="max-height: 40px;" alt="">
                         </a>
                      </div>
                      <div class="col-md-10 text-right">
@@ -108,7 +109,7 @@
          </section>
          <!--End hero section-->
          <!--About section-->
-         <section id="about" class="about pt-120 pb-120 brd-bottom">
+         <section id="about" class="about pt-120000 pb-120 brd-bottom">
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -737,7 +738,8 @@
          <!--Contact section-->
          <section id="location" class="location pt-200 pb-200 bg-dark">
             <div class="block-map ">
-               <div id="map" class="map"></div>
+               {{-- <div id="map" class="map"></div> --}}
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226032552169!2d110.4066258750791!3d-6.982631693018242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e0!3m2!1sid!2sid!4v1681458781488!5m2!1sid!2sid" style="border:0; height: 100%; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!--Container-->
             <div class="container block-contact">
@@ -839,8 +841,8 @@
 <script src="{{ asset('landing/js/jquery.validate.min.js') }}" type="text/javascript"></script>
 {{-- <script src="{{ asset('landing/js/placeholders.min.js') }}" type="text/javascript"></script> --}}
 <script src="{{ asset('landing/js/venobox.min.js') }}" type="text/javascript"></script>
-{{-- <script src="{{ asset('landing/js/instafeed.min.js') }}" type="text/javascript"></script> --}}
+<script src="{{ asset('landing/js/instafeed.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('landing/js/script.js') }}" type="text/javascript"></script>
-{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap"></script> --}}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap"></script>
 <!-- Google analytics -->
 <!-- End google analytics -->
