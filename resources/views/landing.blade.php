@@ -114,7 +114,7 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-                     <h1 class="title">Pentingnya Cyber Security</h1>
+                     <h1 class="title">Pentingnya Cybersecurity</h1>
                      <p class="title-lead mt-20">
                         Keamanan cyber semakin penting di era digital saat ini. Ancaman siber dapat memengaruhi setiap orang dari berbagai latar belakang, dan oleh karena itu, penting bagi kita semua untuk memahami cara melindungi diri kita sendiri dan lingkungan sekitar kita dari serangan siber.
                      </p>
@@ -281,7 +281,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Pembicara</h1>
-                     <p class="title-lead mt-10">Kami menghadirkan pembicara yang ahli dalam bidangnya untuk meningkatkan pengetahuan anda terkait Cyber Security.</p>
+                     <p class="title-lead mt-10">Kami menghadirkan pembicara yang ahli dalam bidangnya untuk meningkatkan pengetahuan anda terkait Cybersecurity.</p>
                   </div>
                </div>
                <!--End row-->
@@ -392,7 +392,7 @@
                            <li>1. Cara PDKT yang elegan</li>
                            <li>2. Tips memberi harapan</li>
                            <li>3. Candaan konyol PDKT</li>
-                           <li>4. Style cowo kekinial</li>
+                           <li>4. Style cowo kekinian</li>
                            <li>5. Tanda keras DOI suka lo</li>
                         </ul>
                      </div>
@@ -591,7 +591,7 @@
                <div class="row vertical-align tickets">
                   <div class="col-sm-4 ">
                      <h3 class="sub-title-0  mb-20"><span class="gradient-text">Bonus pasangan jika</span><br> 
-                        <span class="gradient-text">anda GAY</span>
+                        <span class="gradient-text">anda keren</span>
                      </h3>
                      <div class="review-slider flexslider">
                         <ul class="slides">
@@ -678,7 +678,7 @@
                            <button class="but submit" type="submit">Klik untuk mendaftar</button>
                         </div>
                         <div class="col-sm-12">
-                           <p>* Kami tidak membagihan informasi anda kepada siapapun.</p>
+                           <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
                         </div>
                      </form>
                   </div>
@@ -789,7 +789,7 @@
               
                      <div class="title">
                         <h3>VERIFIKASI OTP</h3>
-                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">62</span></p>
+                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">...</span></p>
                         <p class="msg">Masukan kode otp</p>
                      </div>
                      <div class="otp-input-fields">
