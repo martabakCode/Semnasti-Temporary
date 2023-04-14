@@ -222,7 +222,7 @@
                         </svg>
                         <p>
                            <strong>Lokasi</strong>
-                           <span>Universitas Harvard</span><span>Cambridge, Amerika Serikat </span>
+                           <span>Universitas Dian Nuswantoro</span><span>Jl. Imam Bonjol No.207 </span>
                         </p>
                      </div>
                   </div>
@@ -259,7 +259,7 @@
                         </svg>
                         <p>
                            <strong>Pembicara</strong>
-                           <span>12 Pembicara Profesional </span>
+                           <span>3 Pembicara Profesional </span>
                         </p>
                      </div>
                   </div>
@@ -288,8 +288,8 @@
                <!--End row-->
             </div>
             <!--End container-->
-            <div class="block-content">
-               <div class="col-sm-3 pd-0">
+            <div class="block-content" style="padding-left: 2rem; padding-right: 2rem;">
+               <div class="col-sm-4 pd-0">
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
@@ -308,7 +308,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-sm-3 pd-0">
+               <div class="col-sm-4 pd-0">
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
@@ -327,7 +327,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-sm-3 pd-0">
+               <div class="col-sm-4 pd-0">
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
@@ -337,25 +337,6 @@
                            <p>
                               <strong>Vada Anindya</strong>
                               <span>Senior UI/UX</span>
-                           </p>
-                           <ul class="block-social ">
-                              <li><a href="#"><i class="icon-twitter"></i></a></li>
-                              <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-3 pd-0">
-                  <div class="block-speaker">
-                     <div class="block-img overlay soft">
-                        <div class="background-img">
-                           <img src="{{ asset('landing/img/5.jpg') }}" alt="">
-                        </div>
-                        <div class="block-info-2">
-                           <p>
-                              <strong>Arin Mahalini</strong>
-                              <span>Senior Backend Developer </span>
                            </p>
                            <ul class="block-social ">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -426,7 +407,7 @@
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Jadwal Seminar Nasional</h1>
                      <p class="title-lead mt-10">Kami sangat senang dengan program yang direncanakan untuk Acara 2023
-                        musim panas ini <br> di Universitas HarvardCambridge, Amerika Serikat..</p>
+                        musim panas ini <br> di Universitas Dian NuswantoroJl. Imam Bonjol No.207..</p>
                   </div>
                </div>
                <!--End row-->
@@ -450,21 +431,21 @@
                   <div class="col-sm-4 ">
                      <!--Tabs-->
                      <ul class="block-tabs">
-                        <li class="active"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 juli 2023</span></li>
-                        <li class=""><i class="et-line-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></li>
+                        <li class="active"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 Mei 2023</span></li>
+                        {{-- <li class=""><i class="et-line-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></li> --}}
                      </ul>
                   </div>
                   <div class="col-sm-8 ">
                      <ul class="block-tab">
                         <!--Tab-->
                         <li class="active ">
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 juli 2023</span></div>
+                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 Mei 2023</span></div>
                            <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">Pembukaan Acara</span>
+                              <span class="time">08:00 - 09:00</span>
+                              <span class="topic">Daftar Ulang</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
+                                 <span class="speaker"> <strong >Informasi</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
@@ -563,7 +544,7 @@
                <div class="row" style="padding-left: 10%;padding-right: 10%;">
                   <div class="col-sm-12  text-center  front-p" style="padding-top: 40px;border: 3px solid;padding-bottom: 40px;border-radius: 20px;">
                      <h1 class="title">Sisa Waktu Seminar Nasional 2023 </h1>
-                     <p class="title-lead mt-10 mb-20">27 s/d 31 Juli 2023 Universitas HarvardCambridge, Amerika Serikat  </p>
+                     <p class="title-lead mt-10 mb-20">27 s/d 31 Juli 2023 Universitas Dian NuswantoroJl. Imam Bonjol No.207  </p>
                      <span class="countdown gradient-text"></span>
                   </div>
                </div>
@@ -752,8 +733,8 @@
                   <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
                      <div class="block-info-3">
                         <p>
-                           Universitas Harvard <br>
-                           Cambridge, Amerika Serikat <br><br>
+                           Universitas Dian Nuswantoro <br>
+                           Jl. Imam Bonjol No.207 <br><br>
                            Whatsapp: (62) 895 0637 3551 <br>
                         </p>
                      </div>
