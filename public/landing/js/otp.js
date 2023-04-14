@@ -57,6 +57,7 @@ function requestOtp() {
   const data = $("#registration-form").serialize();
 
   const phone_number = $('input[name="phone_number"]').val();
+  $('#no_otp_forward').text(`${phone_number}`);
 
   $.ajax({
     method: "POST",
@@ -64,6 +65,7 @@ function requestOtp() {
     success: function(res) {
       console.log(res);
       $('input[name="phone_number"]').val(res.phone_number);
+      $('#no_otp_forward').text(`${res.phone_number}`);
     }
   });
 }
@@ -74,7 +76,7 @@ function validateOtp(number) {
   const data = $("#registration-form").serialize();
 
   const phone_number = $('input[name="phone_number"]').val();
-  $('#no_otp_forward').text(`${phone_number}`);
+  
   $.ajax({
     method: "POST",
     url: `/otp/validate/${phone_number}/${number}`,

@@ -644,7 +644,7 @@
          <!--Register section-->
          <section id="register" class="register pt-120 pb-120 overlay">
             <div class="background-img " >
-               <img src="{{ asset('landing/img/7.jpg') }}" alt="">
+               <img src="{{ asset('landing/img/semnasti/BG-PENDAFTARAN.png') }}" alt="">
             </div>
             <!--Container-->
             <div class="container">
@@ -789,7 +789,7 @@
               
                      <div class="title">
                         <h3>VERIFIKASI OTP</h3>
-                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">6289506373551</span></p>
+                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">62</span></p>
                         <p class="msg">Masukan kode otp</p>
                      </div>
                      <div class="otp-input-fields">
