@@ -548,19 +548,19 @@
                <!--Row-->
                <div class="row vertical-align tickets">
                   <div class="col-sm-4 ">
-                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan hadiah jika</span><br> 
-                        <span class="gradient-text">Anda beruntung</span>
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan</span><br> 
+                        <span class="gradient-text">Harga spesial</span>
                      </h3>
                      <div class="review-slider flexslider">
                         <ul class="slides">
                            <li>
-                              <blockquote> Seminar Kit (???) </blockquote>
+                              <blockquote>“ Jika Kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan.“ </blockquote>
                            </li>
                            <li>
-                              <blockquote> Doorprize dan Giveaway </blockquote>
+                              <blockquote>“ Pendidikan adalah senjata paling ampuh yang dapat Anda gunakan untuk mengubah dunia.“ </blockquote>
                            </li>
                            <li>
-                              <blockquote> Kesempatan networking </blockquote>
+                              <blockquote>“ Hiduplah seolah-olah kamu akan mati besok. Belajarlah seolah-olah Anda akan hidup selamanya.“ </blockquote>
                            </li>
                         </ul>
                      </div>
