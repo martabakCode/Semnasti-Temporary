@@ -25,6 +25,11 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+      <style>
+         .text-white {
+            color: #fff!important;
+         }
+      </style>
    </head>
    <body>
       <!-- Preloader -->
@@ -554,11 +559,17 @@
                      <div class="col-sm-6">
                         <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket ">
-                                 <li>Pre-sale 1</li>
+                              <ul class="block-ticket active">
+                                 <li>Pre-sale 1 (50 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type">Untuk mahasiswa UDINUS</span></li>
-                                 <li>1 Tiket</li>
-                                 <li>Berbagai fasilitas menarik</li>
+                                 <li>Untuk 1 Tiket</li>
+                                 {{-- <li>Berbagai fasilitas menarik</li> --}}
+                                 <li>E-Sertifikat</li>
+                                 <li>Seminar KIT</li>
+                                 <li>Dor Price</li>
+                                 <li>Give Away</li>
+                                 <li>Relasi/Network</li>
+                                 <li>Snack & Lunch</li>
                                  <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
                               </ul>
                            </li>
@@ -567,11 +578,17 @@
                      <div class="col-sm-6">
                         <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket active">
-                                 <li>Pre-sale 1</li>
+                              <ul class="block-ticket ">
+                                 <li>Pre-sale 1 (50 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type">Untuk peserta umum</span></li>
-                                 <li>1 Tiket</li>
-                                 <li>Berbagai fasilitas menarik</li>
+                                 <li>Untuk 1 Tiket</li>
+                                 {{-- <li>Berbagai fasilitas menarik</li> --}}
+                                 <li>E-Sertifikat</li>
+                                 <li>Seminar KIT</li>
+                                 <li>Dor Price</li>
+                                 <li>Give Away</li>
+                                 <li>Relasi/Network</li>
+                                 <li>Snack & Lunch</li>
                                  <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
                               </ul>
                            </li>
@@ -631,35 +648,6 @@
             <!--End container-->
          </section>
          <!--End register section-->
-         <!--Contact section-->
-         <section id="location" class="location pt-200 pb-200 bg-dark">
-            <div class="block-map ">
-               {{-- <div id="map" class="map"></div> --}}
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226032552169!2d110.4066258750791!3d-6.982631693018242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e0!3m2!1sid!2sid!4v1681458781488!5m2!1sid!2sid" style="border:0; height: 100%; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <!--Container-->
-            <div class="container block-contact">
-               <!--Row-->
-               <div class="row">
-                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                     <h1 class="title">Informasi Kontak </h1>
-                     <p class="title-lead mt-10 mb-50">Hubungi kami untuk informasi lebih lanjut terkait dengan acara ini atau lainnya. </p>
-                  </div>
-                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                     <div class="block-info-3">
-                        <p>
-                           Universitas Dian Nuswantoro <br>
-                           Jl. Imam Bonjol No.207 <br>
-                           +62 895 0637 3551 <br>
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-         </section>
-         <!--End contact section-->
          <!--Sponsor section-->
          <section class="sponser pt-100 pb-100" hidden>
             <!--Container-->
@@ -726,8 +714,8 @@
                            Gedung E3 <br>
                            Universitas Dian Nuswantoro <br>
                            Jl. Imam Bonjol No.207 <br><br>
-                           Whatsapp 1: (62) 815 4237 2528 <br>
-                           Whatsapp 2: (62) 895 0637 3551 <br>
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Whatsapp 1 - Qotrun Nada : (62) 815 4237 2528</a></span> 
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6289506373551">Whatsapp 2 - Bagas Aditya : (62) 895 0637 3551</a></span> 
                         </p>
                      </div>
                   </div>
