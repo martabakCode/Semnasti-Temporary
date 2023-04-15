@@ -1,5 +1,3 @@
-
-
 var otp_inputs = document.querySelectorAll(".otp__digit")
 var mykey = "0123456789".split("")
 otp_inputs.forEach((_) => {

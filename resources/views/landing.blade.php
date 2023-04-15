@@ -122,7 +122,7 @@
                <div class="row">
                   <div class="col-12">
                      <div class="block-video">
-                        <iframe  src="https://player.vimeo.com/video/817828622?portrait=0&autoplay=1&loop=1&autopause=0"></iframe>
+                        <iframe  src="{{ asset('videos/teaser.mp4') }}"></iframe>
                      </div>
                   </div>
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
@@ -326,7 +326,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/anonymous.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -345,7 +345,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/anonymous.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -561,13 +561,13 @@
                            <li>
                               <ul class="block-ticket active">
                                  <li>Pre-sale 1 (50 Tiket)</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type">Untuk mahasiswa UDINUS</span></li>
-                                 <li>Untuk 1 Tiket</li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
+                                 <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
                                  <li>E-Sertifikat</li>
                                  <li>Seminar KIT</li>
-                                 <li>Dor Price</li>
-                                 <li>Give Away</li>
+                                 <li>Doorprize</li>
+                                 <li>Giveaway</li>
                                  <li>Relasi/Network</li>
                                  <li>Snack & Lunch</li>
                                  <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
@@ -580,13 +580,13 @@
                            <li>
                               <ul class="block-ticket ">
                                  <li>Pre-sale 1 (50 Tiket)</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type">Untuk peserta umum</span></li>
-                                 <li>Untuk 1 Tiket</li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
+                                 <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
                                  <li>E-Sertifikat</li>
                                  <li>Seminar KIT</li>
-                                 <li>Dor Price</li>
-                                 <li>Give Away</li>
+                                 <li>Doorprize</li>
+                                 <li>Giveaway</li>
                                  <li>Relasi/Network</li>
                                  <li>Snack & Lunch</li>
                                  <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
@@ -742,21 +742,18 @@
                <!--End container-->		
             </div>
          </footer>
-
-
          <!-- OTP Modal -->
-         <div class="modal fade" id="otpModal" aria-labelledby="otpModalLabel" role="dialog" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog">
+         <div class="modal fade" tabindex="-1" id="otpModal" aria-labelledby="otpModalLabel" role="dialog" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <button type="button" class="close otpModalClose" data-dismiss="modal" aria-label="Close" style="padding-top: 10px;padding-right: 10px;">
                      <span aria-hidden="true">&times;</span>
                    </button>
                   <div class="otp-form" name="otp-form">
-              
                      <div class="title">
                         <h3>VERIFIKASI OTP</h3>
-                        <p class="info">Kode otp telah dikirim ke <span id="no_otp_forward">...</span></p>
-                        <p class="msg">Masukan kode otp</p>
+                        <p class="info">Kode OTP telah dikirim ke <span id="no_otp_forward">...</span></p>
+                        <p class="msg">Masukan kode OTP</p>
                      </div>
                      <div class="otp-input-fields">
                         <input type="number" class="otp__digit otp__field__1">
@@ -766,7 +763,6 @@
                         <input type="number" class="otp__digit otp__field__5">
                         <input type="number" class="otp__digit otp__field__6">
                      </div>
-                     
                      <div class="result">
                         <div class="loading spinner-border" role="status" hidden>
                            <span class="visually-hidden">Menunggu...</span>
@@ -774,13 +770,10 @@
                         <p id="_otp" class="_notok"></p>
                      </div>
                   </div>
-                  
                </div>
             </div>
          </div>
       </div>
-
- 
       <!-- End wrapper-->
    </body>
 </html>
