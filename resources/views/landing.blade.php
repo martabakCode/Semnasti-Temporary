@@ -75,8 +75,8 @@
                               <li><a class="scroll" href="#wrapper">Home</a></li>
                               <li><a class="scroll" href="#about">Tentang</a></li>
                               <li><a class="scroll" href="#speakers">Pembicara</a></li>
-                              <li><a class="scroll" href="#topics">Topik</a></li>
-                              <li><a class="scroll" href="#schedule">Rundown Acara</a></li>
+                              
+                              
                               <li><a class="scroll" href="#tickets">Pendaftaran</a></li>
                               <li><a class="scroll" href="#location">Lokasi</a></li>
                            </ul>
@@ -116,11 +116,12 @@
                <div class="row">
                   <div class="col-12">
                      <div class="block-video">
-                        <iframe  src="https://player.vimeo.com/video/817828622?h=01ab9aa4fd?color=ffffff&portrait=0"></iframe>
+                        <iframe  src="https://player.vimeo.com/video/817828622?portrait=0&autoplay=1&loop=1&autopause=0"></iframe>
                      </div>
                   </div>
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Pentingnya Cybersecurity</h1>
+                     <h1 class="">"Cyber Security Awareness For Securing Data"</h1>
                      <p class="title-lead mt-20">
                         Keamanan cyber semakin penting di era digital saat ini. Ancaman siber dapat memengaruhi setiap orang dari berbagai latar belakang, dan oleh karena itu, penting bagi kita semua untuk memahami cara melindungi diri kita sendiri dan lingkungan sekitar kita dari serangan siber.
                      </p>
@@ -227,7 +228,8 @@
                         </svg>
                         <p>
                            <strong>Lokasi</strong>
-                           <span>Universitas Dian Nuswantoro</span><span>Jl. Imam Bonjol No.207 </span>
+                           <span>Gedung E3 </span>
+                           <span>Universitas Dian Nuswantoro</span>
                         </p>
                      </div>
                   </div>
@@ -601,10 +603,10 @@
                               <ul class="block-ticket active">
                                  <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 1</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type">untuk 1 tiket</span></li>
-                                 <li>Main Event speeche</li>
+                                 {{-- <li>Main Event speeche</li>
                                  <li>Limited areas access</li>
-                                 <li>Lunch on day 1</li>
-                                 <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
+                                 <li>Lunch on day 1</li> --}}
+                                 <li><a href="#register" class="but mt-30"> Beli Sekarang</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -615,10 +617,10 @@
                               <ul class="block-ticket ">
                                  <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 2</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>?K</span><span class="block-type">Untuk 1 tiket</span></li>
-                                 <li>Main Events speeches</li>
+                                 {{-- <li>Main Events speeches</li>
                                  <li>Access to all areas</li>
-                                 <li>All days lunch</li>
-                                 <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
+                                 <li>All days lunch</li> --}}
+                                 <li><a href="#register" class="but mt-30"> Beli Sekarang</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -740,9 +742,11 @@
                   <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
                      <div class="block-info-3">
                         <p>
+                           Gedung E3 <br>
                            Universitas Dian Nuswantoro <br>
                            Jl. Imam Bonjol No.207 <br><br>
-                           Whatsapp: (62) 895 0637 3551 <br>
+                           Whatsapp 1: (62) 815 4237 2528 <br>
+                           Whatsapp 2: (62) 895 0637 3551 <br>
                         </p>
                      </div>
                   </div>
@@ -757,8 +761,8 @@
                <!--Container-->
                <div class="container ">
                   <div class="row">
-                     <div class="col-md-12">
-                        <p>	&copy; 2023 all rights reserved - a product of ditya.</p>
+                     <div class="col-md-12 text-center">
+                        <p>	&copy; 2023 all rights reserved - semnasti 2023.</p>
                      </div>
 
                   </div>
