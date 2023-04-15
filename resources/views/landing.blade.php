@@ -3,7 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>SEMNASTI 2023 - UDINUS HMTI</title>
+      <title>SEMNASTI 2023 - HM-TI UDINUS</title>
       <meta name="title" content="SEMNASTI 2023 - UDINUS HMTI">
       <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Himpunan Teknik Informatika">
       <meta name="keywords" content="semnasti,seminar,seminal nasional,hmti,udinus,dian nuswantoro">
@@ -22,6 +22,7 @@
       <link href="{{ asset('landing/css/flexslider.css') }}" rel="stylesheet" type="text/css"  media="all" />
       <link href="{{ asset('landing/css/venobox.css') }}" rel="stylesheet" type="text/css"  media="all" />
       <link href="{{ asset('landing/css/fonts.css') }}" rel="stylesheet" type="text/css"  media="all" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
    </head>
@@ -72,11 +73,11 @@
                               </a>
                            </div>
                            <ul>
-                              <li><a class="scroll" href="#wrapper">Home</a></li>
+                              <li><a class="scroll" href="#wrapper">Beranda</a></li>
                               <li><a class="scroll" href="#about">Tentang</a></li>
                               <li><a class="scroll" href="#speakers">Pembicara</a></li>
                               <li><a class="scroll" href="#topics">Topik</a></li>
-                              <li><a class="scroll" href="#schedule">Rundown Acara</a></li>
+                              <li><a class="scroll" href="#schedule">Jadwal</a></li>
                               <li><a class="scroll" href="#tickets">Pendaftaran</a></li>
                               <li><a class="scroll" href="#location">Lokasi</a></li>
                            </ul>
@@ -95,10 +96,10 @@
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                        <h3 class="mb-10">Seminar Nasional</h3>
-                        <h1 class="large mb-10">Teknik Informatika 2023</h1>
-                        <p class="uppercase ">10 Juni 2023 - UNIVERSITAS dian nuswantoro </p>
-                        <a href="#register" class="but scroll "> Daftar Sekarang </a>
+                        <h3 class="mb-10">HM-TI UDINUS</h3>
+                        <h1 class="large mb-10">SEMNASTI 2023</h1>
+                        <p class="uppercase ">10 Juni 2023 - Auditorium E3 UDINUS</p>
+                        <a href="#tickets" class="but scroll "> Daftar Sekarang </a>
                      </div>
                   </div>
                   <!--End row-->
@@ -115,7 +116,7 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-                     <h1 class="title">Pentingnya Cybersecurity</h1>
+                     <h1 class="title">Pentingnya Cyber Security</h1>
                      <p class="title-lead mt-20">
                         Keamanan cyber semakin penting di era digital saat ini. Ancaman siber dapat memengaruhi setiap orang dari berbagai latar belakang, dan oleh karena itu, penting bagi kita semua untuk memahami cara melindungi diri kita sendiri dan lingkungan sekitar kita dari serangan siber.
                      </p>
@@ -185,6 +186,7 @@
                         <p>
                            <strong>Tanggal</strong>
                            <span>10 Juni 2023</span>
+                           <span>08.00 WIB - Selesai</span>
                         </p>
                      </div>
                   </div>
@@ -222,7 +224,9 @@
                         </svg>
                         <p>
                            <strong>Lokasi</strong>
-                           <span>Universitas Dian Nuswantoro</span><span>Jl. Imam Bonjol No.207 </span>
+                           <span>Auditorium E3</span>
+                           <span>Universitas Dian Nuswantoro</span>
+                           <span>Jl. Imam Bonjol No.207 </span>
                         </p>
                      </div>
                   </div>
@@ -259,7 +263,7 @@
                         </svg>
                         <p>
                            <strong>Pembicara</strong>
-                           <span>3 Pembicara Profesional </span>
+                           <span>3 Pembicara Ahli </span>
                         </p>
                      </div>
                   </div>
@@ -282,7 +286,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Pembicara</h1>
-                     <p class="title-lead mt-10">Kami menghadirkan pembicara yang ahli dalam bidangnya untuk meningkatkan pengetahuan anda terkait Cybersecurity.</p>
+                     <p class="title-lead mt-10">Kami menghadirkan pembicara yang ahli di bidangnya untuk meningkatkan<br>pengetahuan anda terkait Cyber Security.</p>
                   </div>
                </div>
                <!--End row-->
@@ -293,12 +297,12 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('images/anonymous.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Ditya Ganteng</strong>
-                              <span>Ga Ceto </span>
+                              <strong>Hansen Gianto</strong>
+                              <span>Founder dan CEO Jadi Hacker</span>
                            </p>
                            <ul class="block-social">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -312,12 +316,12 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('images/anonymous.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Olan Yunianto</strong>
-                              <span>Senior Graphic Designer </span>
+                              <strong>Announce Soon</strong>
+                              <span>???</span>
                            </p>
                            <ul class="block-social ">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -331,12 +335,12 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('images/anonymous.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Vada Anindya</strong>
-                              <span>Senior UI/UX</span>
+                              <strong>Announce Soon</strong>
+                              <span>???</span>
                            </p>
                            <ul class="block-social ">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -356,8 +360,8 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-                     <h1 class="title">Topik Yang Dibahas</h1>
-                     <p class="title-lead mt-10">Kami menyusun dan menyajikan topik yang relevan dan bermanfaat hingga tahun tahun yang akan mendatang dengan menhadirkan pembicara yang profesional.</p>
+                     <h1 class="title">Topik yang Dibahas</h1>
+                     <p class="title-lead mt-10">Kami menyusun dan menyajikan topik yang relevan dan bermanfaat untuk saat ini dengan menhadirkan pembicara yang ahli.</p>
                   </div>
                </div>
                <!--End row-->
@@ -371,26 +375,26 @@
                      </div>
                      <div class="col-md-6 col-sm-12">
                         <ul class="block-topic">
-                           <li>1. Cara PDKT yang elegan</li>
-                           <li>2. Tips memberi harapan</li>
-                           <li>3. Candaan konyol PDKT</li>
-                           <li>4. Style cowo kekinian</li>
-                           <li>5. Tanda keras DOI suka lo</li>
+                           <li>1. Testing</li>
+                           <li>2. Penetratrion</li>
+                           <li>3. Security</li>
+                           <li>4. ???</li>
+                           <li>5. ???</li>
                         </ul>
                      </div>
                      <div class="col-md-6 col-sm-12">
                         <ul class="block-topic">
-                           <li>6. No good looking & rekening? NO PROBLEM</li>
-                           <li>7. Kesalahan fatal cowok</li>
-                           <li>8. Cara menarik dimata doi</li>
-                           <li>9. Hadapi insekyur dengan manjurr</li>
-                           <li>10. 2023 Galau in satu organisasi? LEMAH</li>
+                           <li>6. ???</li>
+                           <li>7. ???</li>
+                           <li>8. ???</li>
+                           <li>9. ???</li>
+                           <li>10. ???</li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-xl-6 col-md-9 col-sm-12">
                      <div class="block-video">
-                        <iframe  src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        <iframe src="{{ asset('videos/teaser.mp4') }}"></iframe>
                      </div>
                   </div>
                </div>
@@ -405,9 +409,8 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-                     <h1 class="title">Jadwal Seminar Nasional</h1>
-                     <p class="title-lead mt-10">Kami sangat senang dengan program yang direncanakan untuk Acara 2023
-                        musim panas ini <br> di Universitas Dian NuswantoroJl. Imam Bonjol No.207..</p>
+                     <h1 class="title">Jadwal Kegiatan</h1>
+                     <p class="title-lead mt-10">Kami sangat bangga menyelenggarakan acara ini <br> di Universitas Dian Nuswantoro</p>
                   </div>
                </div>
                <!--End row-->
@@ -418,7 +421,7 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-12">
-                     <h3 class="sub-title-0  mb-25"><span class="gradient-text">Tanggal Seminar</span></h3>
+                     <h3 class="sub-title-0  mb-25"><span class="gradient-text">Susunan Acara</span></h3>
                   </div>
                </div>
                <!--End row-->
@@ -431,100 +434,53 @@
                   <div class="col-sm-4 ">
                      <!--Tabs-->
                      <ul class="block-tabs">
-                        <li class="active"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 10 Juni 2023</span></li>
-                        {{-- <li class=""><i class="et-line-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></li> --}}
+                        <li class="active"><i class="fa fa-calendar"></i><strong>Tanggal</strong>  <span>- 10 Juni 2023</span></li>
+                        {{-- <li class=""><i class="fa fa-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></li> --}}
                      </ul>
                   </div>
                   <div class="col-sm-8 ">
                      <ul class="block-tab">
                         <!--Tab-->
                         <li class="active ">
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 10 Juni 2023</span></div>
+                           <div class="block-date"><i class="fa fa-calendar"></i><strong>Tanggal</strong>  <span>- 10 Juni 2023</span></div>
                            <div class="block-detail">
                               <span class="time">08:00 - 09:00</span>
                               <span class="topic">Daftar Ulang</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Informasi</strong> : <a href="https://wa.me/6285727401089" class="gradient-text ">Bagas Aditya</a> </span>
+                                 <span class="speaker"> <strong >Informasi</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
-                              <span class="time">10:30 - 12:30</span>
-                              <span class="topic">Sambutan oleh pendiri yayasan Harvard</span>
+                              <span class="time">09:00 - 12:00</span>
+                              <span class="topic">Pemaparan Materi</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Luca Palermo</a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
-                              <span class="time">13:00</span>
-                              <span class="topic">Makan Siang Panitia</span>
+                              <span class="time">12:00-13:00</span>
+                              <span class="topic">Ishoma</span>
                            </div>
                            <div class="block-detail">
-                              <span class="time">15:00 - 16:30</span>
+                              <span class="time">13:00 - 14:00</span>
                               <span class="topic">Fun Games</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Lina Blamberg </a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
-                              <span class="time">17:00</span>
-                              <span class="topic">Istirahat</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:30 - 18:00</span>
+                              <span class="time">14:00 - 14:30</span>
                               <span class="topic">Penutupan Acara</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Emilie Lippelt </a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
                               </div>
                            </div>
                         </li>
                         <!--Tab-->
-                        <li>
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></div>
-                           <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">Open Gate & Pembukaan</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">10:30 - 12:30</span>
-                              <span class="topic">Perform Juicy Luicy</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Luca Palermo</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">13:00</span>
-                              <span class="topic">Perform Band Smash</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">15:00 - 16:30</span>
-                              <span class="topic">Single Album Nadin Amizah</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Lina Blamberg </a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:00</span>
-                              <span class="topic">Single Perform Yura Yunita</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:30 - 18:00</span>
-                              <span class="topic">Ambyar Bersama Mahalini</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Emilie Lippelt </a> </span>
-                              </div>
-                           </div>
-                        </li>
                      </ul>
                   </div>
                </div>
@@ -543,8 +499,8 @@
                <!--Row-->
                <div class="row" style="padding-left: 10%;padding-right: 10%;">
                   <div class="col-sm-12  text-center  front-p" style="padding-top: 40px;border: 3px solid;padding-bottom: 40px;border-radius: 20px;">
-                     <h1 class="title">Sisa Waktu Seminar Nasional 2023 </h1>
-                     <p class="title-lead mt-10 mb-20">10 Juni 2023 Universitas Dian NuswantoroJl. Imam Bonjol No.207  </p>
+                     <h1 class="title">Sisa waktu SEMNASTI 2023</h1>
+                     <p class="title-lead mt-10 mb-20">10 Juni 2023 - Auditorium E3 Universitas Dian Nuswantoro - Jl. Imam Bonjol No.207  </p>
                      <span class="countdown gradient-text"></span>
                   </div>
                </div>
@@ -560,8 +516,8 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-130 text-center">
-                     <h1 class="title">Tiket Seminar</h1>
-                     <p class="title-lead mt-10">Daftar segera dan harumkan nama keluarga dengan mengikuti seminar ini. </p>
+                     <h1 class="title">Daftar Tiket</h1>
+                     <p class="title-lead mt-10">Daftar segera dan dapatkan ilmu Cyber Security dengan mengikuti seminar ini. </p>
                   </div>
                </div>
                <!--End row-->
@@ -571,20 +527,20 @@
             <div class="container">
                <!--Row-->
                <div class="row vertical-align tickets">
-                  <div class="col-sm-3 ">
-                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Bonus pasangan jika</span><br> 
-                        <span class="gradient-text">anda keren</span>
+                  <div class="col-sm-4 ">
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan hadiah jika</span><br> 
+                        <span class="gradient-text">Anda beruntung</span>
                      </h3>
                      <div class="review-slider flexslider">
                         <ul class="slides">
                            <li>
-                              <blockquote>“ It’s an unlikely setting for an exquisite dining experience—served up by a couple straight out of a rom-com plot.“ </blockquote>
+                              <blockquote> Seminar Kit (???) </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ The food is plentiful and delicious, it is all part of the "old world" sort of dining experience.“ </blockquote>
+                              <blockquote> Doorprize dan Giveaway </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq.“ </blockquote>
+                              <blockquote> Kesempatan networking </blockquote>
                            </li>
                         </ul>
                      </div>
@@ -593,13 +549,12 @@
                      <div class="col-sm-6">
                         <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket active">
-                                 <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 1</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type">untuk 1 tiket</span></li>
-                                 <li>Main Event speeche</li>
-                                 <li>Limited areas access</li>
-                                 <li>Lunch on day 1</li>
-                                 <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
+                              <ul class="block-ticket ">
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type">Untuk mahasiswa UDINUS</span></li>
+                                 <li>Pre-sale 1</li>
+                                 <li>1 Tiket</li>
+                                 <li>Berbagai fasilitas menarik</li>
+                                 <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -607,13 +562,12 @@
                      <div class="col-sm-6">
                         <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket ">
-                                 <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 2</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>?K</span><span class="block-type">Untuk 1 tiket</span></li>
-                                 <li>Main Events speeches</li>
-                                 <li>Access to all areas</li>
-                                 <li>All days lunch</li>
-                                 <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
+                              <ul class="block-ticket active">
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type">Untuk peserta umum</span></li>
+                                 <li>Pre-sale 1</li>
+                                 <li>1 Tiket</li>
+                                 <li>Berbagai fasilitas menarik</li>
+                                 <li><a href="#register" class="but mt-30">Pesan Tiket Sekarang</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -636,12 +590,12 @@
                <div class="row">
                   <div class="col-md-6 front-p">
                      <form class="registry-form form" method="post" action="#" id="registration-form">
-                        <h2 class="sub-title-1 mb-30">Daftar segera dalam acara Seminar Nasional 2023</h2>
+                        <h2 class="sub-title-1 mb-30">Daftar segera dalam acara Seminar Nasional Teknik Informatika 2023</h2>
                         <div class="col-md-6 col-sm-12">
                            <input placeholder="Nama Anda" value="" id="name" name="name" type="text" required>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                           <input placeholder="Nomor Whatsapp" value="" id="phone_number" name="phone_number" type="text" required>
+                           <input placeholder="Nomor WhatsApp" value="" id="phone_number" name="phone_number" type="text" required>
                         </div>
                         <div class="col-md-6 col-sm-12">
                            <input placeholder="Email Anda" value="" id="email" name="email" type="text" required>
@@ -659,7 +613,7 @@
                            </div>
                         </div>
                         <div class="col-sm-12">
-                           <button class="but submit" type="submit">Klik untuk mendaftar</button>
+                           <button class="but submit" type="submit">Pesan Tiket</button>
                         </div>
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
@@ -672,6 +626,35 @@
             <!--End container-->
          </section>
          <!--End register section-->
+         <!--Contact section-->
+         <section id="location" class="location pt-200 pb-200 bg-dark">
+            <div class="block-map ">
+               {{-- <div id="map" class="map"></div> --}}
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226032552169!2d110.4066258750791!3d-6.982631693018242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e0!3m2!1sid!2sid!4v1681458781488!5m2!1sid!2sid" style="border:0; height: 100%; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!--Container-->
+            <div class="container block-contact">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <h1 class="title">Informasi Kontak </h1>
+                     <p class="title-lead mt-10 mb-50">Hubungi kami untuk informasi lebih lanjut terkait dengan acara ini atau lainnya. </p>
+                  </div>
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <div class="block-info-3">
+                        <p>
+                           Universitas Dian Nuswantoro <br>
+                           Jl. Imam Bonjol No.207 <br>
+                           +62 895 0637 3551 <br>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End contact section-->
          <!--Sponsor section-->
          <section class="sponser pt-100 pb-100">
             <!--Container-->
@@ -679,8 +662,8 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
-                     <h1 class="title">Terimakasih Kepada Para Sponsor </h1>
-                     <p class="title-lead mt-10 mb-20">Tanpa sponsor kami tidak punya uang untuk membuat acara ini!</p>
+                     <h1 class="title">Terima Kasih Sponsor</h1>
+                     <p class="title-lead mt-10 mb-20">Dengan bantuan sponsor acara ini dapat terlaksana sesuai rencana!</p>
                   </div>
                </div>
                <!--End row-->
@@ -718,42 +701,13 @@
             <!--End container-->
          </section>
          <!--End sponser section-->
-         <!--Contact section-->
-         <section id="location" class="location pt-200 pb-200 bg-dark">
-            <div class="block-map ">
-               {{-- <div id="map" class="map"></div> --}}
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226032552169!2d110.4066258750791!3d-6.982631693018242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e0!3m2!1sid!2sid!4v1681458781488!5m2!1sid!2sid" style="border:0; height: 100%; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <!--Container-->
-            <div class="container block-contact">
-               <!--Row-->
-               <div class="row">
-                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                     <h1 class="title">Informasi Kontak </h1>
-                     <p class="title-lead mt-10 mb-50">Hubungi kami untuk info lebih lanjut terkait dengan event tahunan kami. </p>
-                  </div>
-                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
-                     <div class="block-info-3">
-                        <p>
-                           Universitas Dian Nuswantoro <br>
-                           Jl. Imam Bonjol No.207 <br><br>
-                           Whatsapp: (62) 895 0637 3551 <br>
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-         </section>
-         <!--End contact section-->
          <footer class="pt-120  bg-dark">
             <div class="bottom-footer bg-black pt-50 pb-50">
                <!--Container-->
                <div class="container ">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>	&copy; 2023 all rights reserved - a product of ditya.</p>
+                        &copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #33475B;"> HMTI UDINUS</a> - Hak cipta dilindungi
                      </div>
 
                   </div>
