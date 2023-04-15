@@ -717,8 +717,8 @@
                            Gedung E3 <br>
                            Universitas Dian Nuswantoro <br>
                            Jl. Imam Bonjol No.207 <br><br>
-                           <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Whatsapp 1 - Qotrun Nada : (62) 815 4237 2528</a></span> 
-                           <span class="text-white"><a class="text-white" href="https://wa.me/6289506373551">Whatsapp 2 - Bagas Aditya : (62) 895 0637 3551</a></span> 
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Admin 1 - Qotrunnada: (62) 815 4237 2528</a></span> 
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6289506373551">Admin 2 - Bagas Aditya: (62) 895 0637 3551</a></span> 
                         </p>
                      </div>
                   </div>
