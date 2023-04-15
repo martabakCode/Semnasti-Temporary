@@ -602,7 +602,7 @@
                            <li>
                               <ul class="block-ticket active">
                                  <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 1</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type">untuk 1 tiket</span></li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>35k</span><span class="block-type">untuk 1 tiket</span></li>
                                  {{-- <li>Main Event speeche</li>
                                  <li>Limited areas access</li>
                                  <li>Lunch on day 1</li> --}}
