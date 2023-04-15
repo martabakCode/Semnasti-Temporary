@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <title>SEMNASTI 2023 - UDINUS HMTI</title>
       <meta name="title" content="SEMNASTI 2023 - UDINUS HMTI">
-      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Himpunan Teknik Informatika">
+      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Hiunan Teknik Informatika">
       <meta name="keywords" content="semnasti,seminar,seminal nasional,hmti,udinus,dian nuswantoro">
       <meta name="robots" content="index, follow">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -114,6 +114,11 @@
             <div class="container">
                <!--Row-->
                <div class="row">
+                  <div class="col-12">
+                     <div class="block-video">
+                        <iframe  src="https://player.vimeo.com/video/817828622?h=01ab9aa4fd?color=ffffff&portrait=0"></iframe>
+                     </div>
+                  </div>
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Pentingnya Cybersecurity</h1>
                      <p class="title-lead mt-20">
@@ -275,7 +280,7 @@
          </section>
          <!--End about section-->
          <!--Speakers section-->
-         <section id="speakers" class="speakers pt-120 brd-bottom">
+         <section id="speakers" class="speakers pt-120 brd-bottom pb-120">
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -293,16 +298,16 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-1.jpg') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Ditya Ganteng</strong>
-                              <span>Ga Ceto </span>
+                              <strong>Hansen Gianto</strong>
+                              <span>Founder of Jadi Hacker</span>
                            </p>
                            <ul class="block-social">
-                              <li><a href="#"><i class="icon-twitter"></i></a></li>
-                              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                              <li><a href="https://github.com/hansengianto"><i class="icon-github"></i></a></li>
+                              <li><a href="https://id.linkedin.com/in/hansengianto"><i class="icon-linkedin"></i></a></li>
                            </ul>
                         </div>
                      </div>
@@ -316,8 +321,8 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Olan Yunianto</strong>
-                              <span>Senior Graphic Designer </span>
+                              <strong>...</strong>
+                              <span>?</span>
                            </p>
                            <ul class="block-social ">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -335,8 +340,8 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Vada Anindya</strong>
-                              <span>Senior UI/UX</span>
+                              <strong>...</strong>
+                              <span>?</span>
                            </p>
                            <ul class="block-social ">
                               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -350,7 +355,7 @@
          </section>
          <!--End speakers section-->
          <!--Topics section-->
-         <section id="topics" class="topics pt-120 pb-120  brd-bottom">
+         <section id="topics" class="topics pt-120 pb-120  brd-bottom" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -390,7 +395,7 @@
                   </div>
                   <div class="col-xl-6 col-md-9 col-sm-12">
                      <div class="block-video">
-                        <iframe  src="http://player.vimeo.com/video/16334844?color=ffffff&portrait=0"></iframe>
+                        <iframe  src="https://player.vimeo.com/video/817828622?h=01ab9aa4fd?color=ffffff&portrait=0"></iframe>
                      </div>
                   </div>
                </div>
@@ -399,7 +404,7 @@
          </section>
          <!--End topics section-->
          <!--Schedule section-->
-         <section id="schedule" class="schedule pt-120 pb-120">
+         <section id="schedule" class="schedule pt-120 pb-120" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -572,19 +577,19 @@
                <!--Row-->
                <div class="row vertical-align tickets">
                   <div class="col-sm-3 ">
-                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Bonus pasangan jika</span><br> 
-                        <span class="gradient-text">anda keren</span>
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan</span><br> 
+                        <span class="gradient-text">Harga spesial</span>
                      </h3>
                      <div class="review-slider flexslider">
                         <ul class="slides">
                            <li>
-                              <blockquote>“ It’s an unlikely setting for an exquisite dining experience—served up by a couple straight out of a rom-com plot.“ </blockquote>
+                              <blockquote>“ Jika Kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan.“ </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ The food is plentiful and delicious, it is all part of the "old world" sort of dining experience.“ </blockquote>
+                              <blockquote>“ Pendidikan adalah senjata paling ampuh yang dapat Anda gunakan untuk mengubah dunia.“ </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq.“ </blockquote>
+                              <blockquote>“ Hiduplah seolah-olah kamu akan mati besok. Belajarlah seolah-olah Anda akan hidup selamanya.“ </blockquote>
                            </li>
                         </ul>
                      </div>
@@ -673,7 +678,7 @@
          </section>
          <!--End register section-->
          <!--Sponsor section-->
-         <section class="sponser pt-100 pb-100">
+         <section class="sponser pt-100 pb-100" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
