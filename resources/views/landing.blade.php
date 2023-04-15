@@ -33,7 +33,7 @@
    </head>
    <body>
       <!-- Preloader -->
-      {{-- <div class="loader">
+      <div class="loader">
          <!-- Preloader inner -->
          <div class="loader-inner">
             <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,7 @@
             </svg>
          </div>
          <!-- End preloader inner -->
-      </div> --}}
+      </div>
       <!-- End preloader-->
       <!--Wrapper-->
       <div class="wrapper">
@@ -636,9 +636,9 @@
                         </div>
                         <div class="col-sm-12">
                            <button class="but submit" type="submit">Pesan Tiket</button>
-                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
+                           {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
                               Launch demo modal
-                            </button>
+                            </button> --}}
                         </div>
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
