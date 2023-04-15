@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <title>SEMNASTI 2023 - HM-TI UDINUS</title>
       <meta name="title" content="SEMNASTI 2023 - UDINUS HMTI">
-      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Himpunan Teknik Informatika">
+      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Hiunan Teknik Informatika">
       <meta name="keywords" content="semnasti,seminar,seminal nasional,hmti,udinus,dian nuswantoro">
       <meta name="robots" content="index, follow">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -115,6 +115,11 @@
             <div class="container">
                <!--Row-->
                <div class="row">
+                  <div class="col-12">
+                     <div class="block-video">
+                        <iframe  src="https://player.vimeo.com/video/817828622?h=01ab9aa4fd?color=ffffff&portrait=0"></iframe>
+                     </div>
+                  </div>
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Pentingnya Cyber Security</h1>
                      <p class="title-lead mt-20">
@@ -279,7 +284,7 @@
          </section>
          <!--End about section-->
          <!--Speakers section-->
-         <section id="speakers" class="speakers pt-120 brd-bottom">
+         <section id="speakers" class="speakers pt-120 brd-bottom pb-120">
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -305,8 +310,8 @@
                               <span>Founder dan CEO Jadi Hacker</span>
                            </p>
                            <ul class="block-social">
-                              <li><a href="#"><i class="icon-twitter"></i></a></li>
-                              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                              <li><a href="https://github.com/hansengianto"><i class="icon-github"></i></a></li>
+                              <li><a href="https://id.linkedin.com/in/hansengianto"><i class="icon-linkedin"></i></a></li>
                            </ul>
                         </div>
                      </div>
@@ -354,7 +359,7 @@
          </section>
          <!--End speakers section-->
          <!--Topics section-->
-         <section id="topics" class="topics pt-120 pb-120  brd-bottom">
+         <section id="topics" class="topics pt-120 pb-120  brd-bottom" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -403,7 +408,7 @@
          </section>
          <!--End topics section-->
          <!--Schedule section-->
-         <section id="schedule" class="schedule pt-120 pb-120">
+         <section id="schedule" class="schedule pt-120 pb-120" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
@@ -656,7 +661,7 @@
          </section>
          <!--End contact section-->
          <!--Sponsor section-->
-         <section class="sponser pt-100 pb-100">
+         <section class="sponser pt-100 pb-100" hidden>
             <!--Container-->
             <div class="container">
                <!--Row-->
