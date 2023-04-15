@@ -76,13 +76,8 @@
                               <li><a class="scroll" href="#wrapper">Beranda</a></li>
                               <li><a class="scroll" href="#about">Tentang</a></li>
                               <li><a class="scroll" href="#speakers">Pembicara</a></li>
-<<<<<<< HEAD
-                              
-                              
-=======
                               <li><a class="scroll" href="#topics">Topik</a></li>
                               <li><a class="scroll" href="#schedule">Jadwal</a></li>
->>>>>>> b8852340696c2e116d9335557b8af67cfce541cd
                               <li><a class="scroll" href="#tickets">Pendaftaran</a></li>
                               <li><a class="scroll" href="#location">Lokasi</a></li>
                            </ul>
@@ -126,12 +121,8 @@
                      </div>
                   </div>
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-<<<<<<< HEAD
-                     <h1 class="title">Pentingnya Cybersecurity</h1>
-                     <h1 class="">"Cyber Security Awareness For Securing Data"</h1>
-=======
                      <h1 class="title">Pentingnya Cyber Security</h1>
->>>>>>> b8852340696c2e116d9335557b8af67cfce541cd
+                     <h1 class="">"Cyber Security Awareness For Securing Data"</h1>
                      <p class="title-lead mt-20">
                         Keamanan cyber semakin penting di era digital saat ini. Ancaman siber dapat memengaruhi setiap orang dari berbagai latar belakang, dan oleh karena itu, penting bagi kita semua untuk memahami cara melindungi diri kita sendiri dan lingkungan sekitar kita dari serangan siber.
                      </p>
@@ -239,14 +230,8 @@
                         </svg>
                         <p>
                            <strong>Lokasi</strong>
-<<<<<<< HEAD
                            <span>Gedung E3 </span>
                            <span>Universitas Dian Nuswantoro</span>
-=======
-                           <span>Auditorium E3</span>
-                           <span>Universitas Dian Nuswantoro</span>
-                           <span>Jl. Imam Bonjol No.207 </span>
->>>>>>> b8852340696c2e116d9335557b8af67cfce541cd
                         </p>
                      </div>
                   </div>
@@ -317,7 +302,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('images/anonymous.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-1.jpg') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -336,7 +321,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('images/anonymous.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -355,7 +340,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('images/anonymous.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -721,7 +706,6 @@
             <!--End container-->
          </section>
          <!--End sponser section-->
-<<<<<<< HEAD
          <!--Contact section-->
          <section id="location" class="location pt-200 pb-200 bg-dark">
             <div class="block-map ">
@@ -753,20 +737,13 @@
             <!--End container-->
          </section>
          <!--End contact section-->
-=======
->>>>>>> b8852340696c2e116d9335557b8af67cfce541cd
          <footer class="pt-120  bg-dark">
             <div class="bottom-footer bg-black pt-50 pb-50">
                <!--Container-->
                <div class="container ">
                   <div class="row">
-<<<<<<< HEAD
-                     <div class="col-md-12 text-center">
-                        <p>	&copy; 2023 all rights reserved - semnasti 2023.</p>
-=======
                      <div class="col-md-12">
                         &copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #33475B;"> HMTI UDINUS</a> - Hak cipta dilindungi
->>>>>>> b8852340696c2e116d9335557b8af67cfce541cd
                      </div>
 
                   </div>
