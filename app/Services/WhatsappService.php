@@ -11,7 +11,7 @@ class WhatsappService
     public function http($method, $slug, $data = [], $file = null)
     {
         $base_uri = 'https://wa-gateway-salman0ansari.herokuapp.com/';
-        $slug = $slug . "?key=semnasti-wanya-ketuplak-1";
+        $slug = $slug . "?key=semnasti-wanya-ketuplak-2";
 
         if ($method == 'get') {
             $response = Http::asForm()
