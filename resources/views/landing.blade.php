@@ -76,8 +76,8 @@
                               <li><a class="scroll" href="#wrapper">Beranda</a></li>
                               <li><a class="scroll" href="#about">Tentang</a></li>
                               <li><a class="scroll" href="#speakers">Pembicara</a></li>
-                              <li><a class="scroll" href="#topics">Topik</a></li>
-                              <li><a class="scroll" href="#schedule">Jadwal</a></li>
+                              {{-- <li><a class="scroll" href="#topics">Topik</a></li>
+                              <li><a class="scroll" href="#schedule">Jadwal</a></li> --}}
                               <li><a class="scroll" href="#tickets">Pendaftaran</a></li>
                               <li><a class="scroll" href="#location">Lokasi</a></li>
                            </ul>
