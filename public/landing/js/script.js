@@ -85,7 +85,7 @@
 
     // Count down setup
 
-    $('.countdown').countdown('2023/6/27', function(event) {
+    $('.countdown').countdown('2023/6/10', function(event) {
         $(this).html(event.strftime('%D days %H:%M:%S'));
     });
 

@@ -97,7 +97,7 @@
                      <div class="col-sm-12 text-center">
                         <h3 class="mb-10">Seminar Nasional</h3>
                         <h1 class="large mb-10">Teknik Informatika 2023</h1>
-                        <p class="uppercase ">27 s/d 31 Juli 2023 - UNIVERSITAS dian nuswantoro </p>
+                        <p class="uppercase ">10 Juni 2023 - UNIVERSITAS dian nuswantoro </p>
                         <a href="#register" class="but scroll "> Daftar Sekarang </a>
                      </div>
                   </div>
@@ -184,7 +184,7 @@
                         </svg>
                         <p>
                            <strong>Tanggal</strong>
-                           <span>27 s/d 31 Juli 2023</span>
+                           <span>10 Juni 2023</span>
                         </p>
                      </div>
                   </div>
@@ -293,7 +293,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/2.jpg') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -312,7 +312,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/3.jpg') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -331,7 +331,7 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/4.jpg') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-none-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
@@ -431,7 +431,7 @@
                   <div class="col-sm-4 ">
                      <!--Tabs-->
                      <ul class="block-tabs">
-                        <li class="active"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 Mei 2023</span></li>
+                        <li class="active"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 10 Juni 2023</span></li>
                         {{-- <li class=""><i class="et-line-calendar"></i><strong>Hari ke 2</strong>  <span>- 28 juli 2023</span></li> --}}
                      </ul>
                   </div>
@@ -439,13 +439,13 @@
                      <ul class="block-tab">
                         <!--Tab-->
                         <li class="active ">
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 27 Mei 2023</span></div>
+                           <div class="block-date"><i class="et-line-calendar"></i><strong>Hari ke 1</strong>  <span>- 10 Juni 2023</span></div>
                            <div class="block-detail">
                               <span class="time">08:00 - 09:00</span>
                               <span class="topic">Daftar Ulang</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Informasi</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
+                                 <span class="speaker"> <strong >Informasi</strong> : <a href="https://wa.me/6285727401089" class="gradient-text ">Bagas Aditya</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
@@ -544,7 +544,7 @@
                <div class="row" style="padding-left: 10%;padding-right: 10%;">
                   <div class="col-sm-12  text-center  front-p" style="padding-top: 40px;border: 3px solid;padding-bottom: 40px;border-radius: 20px;">
                      <h1 class="title">Sisa Waktu Seminar Nasional 2023 </h1>
-                     <p class="title-lead mt-10 mb-20">27 s/d 31 Juli 2023 Universitas Dian NuswantoroJl. Imam Bonjol No.207  </p>
+                     <p class="title-lead mt-10 mb-20">10 Juni 2023 Universitas Dian NuswantoroJl. Imam Bonjol No.207  </p>
                      <span class="countdown gradient-text"></span>
                   </div>
                </div>
@@ -571,7 +571,7 @@
             <div class="container">
                <!--Row-->
                <div class="row vertical-align tickets">
-                  <div class="col-sm-4 ">
+                  <div class="col-sm-3 ">
                      <h3 class="sub-title-0  mb-20"><span class="gradient-text">Bonus pasangan jika</span><br> 
                         <span class="gradient-text">anda keren</span>
                      </h3>
@@ -589,11 +589,12 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-sm-8 ">
+                  <div class="col-sm-9 ">
                      <div class="col-sm-6">
-                        <ul class="block-tickets overlap">
+                        <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket ">
+                              <ul class="block-ticket active">
+                                 <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 1</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type">untuk 1 tiket</span></li>
                                  <li>Main Event speeche</li>
                                  <li>Limited areas access</li>
@@ -606,8 +607,9 @@
                      <div class="col-sm-6">
                         <ul class="block-tickets">
                            <li>
-                              <ul class="block-ticket active">
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>75k</span><span class="block-type">Untuk 1 tiket</span></li>
+                              <ul class="block-ticket ">
+                                 <li class="text-white" style="font-weight: 700;color: #fff; font-size: 20px">PRE SALE 2</li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>?K</span><span class="block-type">Untuk 1 tiket</span></li>
                                  <li>Main Events speeches</li>
                                  <li>Access to all areas</li>
                                  <li>All days lunch</li>
