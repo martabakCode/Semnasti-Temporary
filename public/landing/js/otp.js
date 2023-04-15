@@ -11,12 +11,18 @@ function handle_next_input(event) {
 
     let current = event.target
     let index = parseInt(current.classList[1].split("__")[2])
-    current.value = event.key
+    // current.value = event.key
+    current.value = event.target.value
+
+    // console.log(event)
+    // console.log(event.target.value);
 
     if (event.keyCode == 8 && index > 1) {
+      // console.log("SINIII")
         current.previousElementSibling.focus()
     }
-    if (index < 6 && mykey.indexOf("" + event.key + "") != -1) {
+    if (index < 6 && mykey.indexOf("" + current.value + "") != -1) {
+      // console.log("SINIII1")
         var next = current.nextElementSibling;
         next.focus()
     }
