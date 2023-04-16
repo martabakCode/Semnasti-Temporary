@@ -27,7 +27,7 @@
                                 <thead>
                                     <tr>
                                         <th>Kode</th>
-                                        <th>Name</th>
+                                        <th>Nama</th>
                                         <th>WhatsApp</th>
                                         <th>Asal Instansi</th>
                                         <th>Konfirmasi Kedatangan</th>
@@ -129,7 +129,7 @@
 
                             let option = `<div class="form-group mb-0">
                                 <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="1" ${checked_1}> Datang</label>
-                                <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="0" ${checked_0}> Tidack Datang</label>
+                                <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="0" ${checked_0}> Tidak Datang</label>
                             </div>`;
 
                             if(value == 1) {

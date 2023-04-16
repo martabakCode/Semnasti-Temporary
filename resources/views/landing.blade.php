@@ -235,7 +235,7 @@
                         </svg>
                         <p>
                            <strong>Lokasi</strong>
-                           <span>Gedung E3 </span>
+                           <span>Auditorium E3 </span>
                            <span>Universitas Dian Nuswantoro</span>
                         </p>
                      </div>
@@ -273,7 +273,9 @@
                         </svg>
                         <p>
                            <strong>Pembicara</strong>
-                           <span>3 Pembicara Ahli </span>
+                           <span>1. Hansen Gianto</span>
+                           <span>2. To Be Announce</span>
+                           <span>3. To Be Announce</span>
                         </p>
                      </div>
                   </div>
@@ -312,7 +314,7 @@
                         <div class="block-info-2">
                            <p>
                               <strong>Hansen Gianto</strong>
-                              <span>Founder dan CEO Jadi Hacker</span>
+                              <span>Founder & CEO Jadi Hacker</span>
                            </p>
                            <ul class="block-social">
                               <li><a href="https://github.com/hansengianto"><i class="icon-github"></i></a></li>
@@ -330,7 +332,7 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Announce Soon</strong>
+                              <strong>To Be Announce</strong>
                               <span>???</span>
                            </p>
                            <ul class="block-social ">
@@ -349,7 +351,7 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Announce Soon</strong>
+                              <strong>To Be Announce</strong>
                               <span>???</span>
                            </p>
                            <ul class="block-social ">
@@ -404,7 +406,7 @@
                   </div>
                   <div class="col-xl-6 col-md-9 col-sm-12">
                      <div class="block-video">
-                        <iframe src="{{ asset('videos/teaser.mp4') }}"></iframe>
+                        {{-- <iframe src="{{ asset('videos/teaser.mp4') }}"></iframe> --}}
                      </div>
                   </div>
                </div>
@@ -714,7 +716,7 @@
                   <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
                      <div class="block-info-3">
                         <p>
-                           Gedung E3 <br>
+                           Auditorium E3 (Gedung TVKU lantai 3)<br>
                            Universitas Dian Nuswantoro <br>
                            Jl. Imam Bonjol No.207 <br><br>
                            <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Admin 1 - Qotrunnada: (62) 815 4237 2528</a></span> 
