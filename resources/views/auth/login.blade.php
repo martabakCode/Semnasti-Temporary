@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Disdukcapil - Dinas Penduduk</title>
+    <title>Admin - SEMNASTI 2023</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('landing/img/semnasti/favicon.svg') }}">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
     <style>
         * {
@@ -106,8 +107,8 @@
             font-family: 'Rubik', sans-serif;
             cursor: pointer;
             text-transform: uppercase;
-            background: #e8e9ec;
-            color: #777;
+            background: #af1400;
+            color: #e8e9ec;
             border-bottom-left-radius: 4px;
             border-bottom-right-radius: 0;
             letter-spacing: 0.2px;
@@ -117,7 +118,8 @@
         }
 
         .login-form .action button:hover {
-            background: #d8d8d8;
+            background: #ffb3a9;
+            color: #e8e9ec
         }
 
         .login-form .action button:nth-child(2) {
@@ -136,36 +138,42 @@
 <body>
     <!-- partial:index.partial.html -->
     <div class="login-form">
-        <form method="POST" action="{{ route('login') }}">
-            @csrf
-            <h1>Disdukcapil - Dinas Penduduk</h1>
-            <div class="content">
+        <h1 style="text-align: center">Admin - SEMNASTI 2023</h1>
+        <div class="content">
+            <form method="POST" action="{{ route('login') }}" name="login-admin" id="login-admin">
+                @csrf
                 <div class="input-field">
-                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
-                        name="email" placeholder="NIK" value="{{ old('email') }}" required autocomplete="email"
-                        autofocus>
+                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                 </div>
+                @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
                 <div class="input-field">
-                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror"
-                        placeholder="No. KK" name="password" required autocomplete="current-password">
+                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Password" name="password" required autocomplete="current-password">
                 </div>
-
-            </div>
-            <div class="action">
-                <button type="submit" class="btn btn-primary">
-                    Cek data penduduk sekarang
-                </button>
-            </div>
-        </form>
+                @error('password')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+            </form>
+        </div>
+        <div class="action">
+            <button type="submit" class="btn btn-primary" form="login-admin">
+                Login
+            </button>
+        </div>
     </div>
-    <script>
+    {{-- <script>
         let form = document.querySelector('form');
 
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             return false;
         });
-    </script>
+    </script> --}}
 
 
 </body>

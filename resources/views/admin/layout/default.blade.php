@@ -10,9 +10,7 @@
 
 	{{-- <meta name="description" content="@yield('page_description', $page_description ?? 'asdasd')"/> --}}
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicon.png') }}">
-	
-	
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('landing/img/semnasti/favicon.svg') }}">
 	
     {{-- Global Theme Styles (used by all pages) --}}
     @if(!empty(config('dz.public.pagelevel.css.'.$action))) 
@@ -59,14 +57,17 @@
 			@if(!empty($logo))
 				<img class="logo-abbr" src="{{ asset($logo) }}" alt="">
 			@else
-                <img class="logo-abbr" src="{{ asset('images/logo.png') }}" alt="">
+                <img class="logo-abbr" src="{{ asset('landing/img/semnasti/favicon.svg') }}" alt="">
 			@endif
 			@if(!empty($logoText))
-                <img class="logo-compact" src="{{ asset($logoText) }}" alt="">
-                <img class="brand-title" src="{{ asset($logoText) }}" alt="">
+                <img class="logo-compact" src="{{ asset($logo) }}" alt="">
+                {{-- <img class="brand-title" src="{{ asset($logoText) }}" alt=""> --}}
+                <h4 class="brand-title"><?= $logoText ?></h4>
 			@else
-                <img class="logo-compact" src="{{ asset('images/logo-text.png') }}" alt="">
-                <img class="brand-title" src="{{ asset('images/logo-text.png') }}" alt="">
+                <img class="logo-compact" src="{{ asset('landing/img/semnasti/favicon.svg') }}" alt="">
+                {{-- <h4 class="logo-compact">SEMNASTI</h4>
+                <img class="brand-title" src="{{ asset('landing/img/semnasti/favicon.svg') }}" alt=""> --}}
+                <h4 class="brand-title">SEMNASTI</h4>
 			@endif	
             </a>
 

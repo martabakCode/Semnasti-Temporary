@@ -128,15 +128,15 @@ class RegistrantController extends Controller
 
         if($request->field == 'payment_status') {
             /** Send Invoice & Notif */
-            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nPembayaran anda sudah dikonfirmasi oleh panitia\nTerimakasih.");
+            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nPembayaran anda sudah dikonfirmasi oleh panitia\nTerima kasih.");
         }
         if($request->field == 'arrival_confirmation') {
             /** Send Notif */
-            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nKedatangan anda sudah dikonfirmasi oleh panitia\nTerimakasih.");
+            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nKedatangan anda sudah dikonfirmasi oleh panitia\nTerima kasih.");
         }
         if($request->field == 'arrival_status') {
             /** Send Notif */
-            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nTerimakasih telah datang di acara kami, mohon untuk mengisi feedback setelah acara selesai untuk mendapatkan 1 unit mobil ya kak\n\nLink feedback: https://forms.gle/8trD6muuQ6NnR1jc8\n\nTerimakasih.");
+            WhatsappService::message($registrant->phone_number, "Halo kak {$registrant->name},\nTerima kasih telah datang di acara kami, mohon untuk mengisi feedback setelah acara selesai untuk mendapatkan 1 unit mobil ya kak\n\nLink feedback: https://forms.gle/8trD6muuQ6NnR1jc8\n\nTerima kasih.");
         }
 
         $registrant->update($data);

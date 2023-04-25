@@ -1,8 +1,6 @@
 {{-- Extends layout --}}
 @extends('admin.layout.default')
 
-
-
 {{-- Content --}}
 @section('content')
 <!-- row -->
@@ -44,7 +42,7 @@
         <div class="col-xl-12 col-md-6">
           <div class="card">
             <div class="card-header border-0 pb-0">
-              <h4 class="fs-20">Grapix Peserta</h4>
+              <h4 class="fs-20">Grafik Peserta</h4>
             </div>
             <div class="card-body">
               <div id="donutChart"></div>

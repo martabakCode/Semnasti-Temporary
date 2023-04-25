@@ -12,8 +12,8 @@ class DashboardController extends Controller
      
         $page_title = 'Dashboard';
         $page_description = 'Some description for the page';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
         $active="active";
         $event_class="schedule-event";
         $button_class="btn-primary";

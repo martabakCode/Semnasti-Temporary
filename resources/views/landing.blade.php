@@ -4,14 +4,14 @@
       <!-- Metas -->
       <meta charset="utf-8">
       <title>SEMNASTI 2023 - HM-TI UDINUS</title>
-      <meta name="title" content="SEMNASTI 2023 - UDINUS HMTI">
-      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Hiunan Teknik Informatika">
-      <meta name="keywords" content="semnasti,seminar,seminal nasional,hmti,udinus,dian nuswantoro">
+      <meta name="title" content="SEMNASTI 2023 - HM-TI UDINUS">
+      <meta name="description" content="Semnasti merupakan acara seminar nasional yang diselengarakan oleh Universitas Dian Nuswantoro dan dikelola oleh Himpunan Mahasiswa Teknik Informatika">
+      <meta name="keywords" content="semnasti, seminar, seminal nasional, hmti, udinus, dian nuswantoro, semnas">
       <meta name="robots" content="index, follow">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="language" content="English">
-      <meta name="author" content="Ditya">
-
+      <meta name="author" content="HM-TI UDINUS">
+      <link rel="icon" type="image/x-icon" href="{{ asset('landing/img/semnasti/favicon.svg') }}">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="csrf-token" content="{{ csrf_token() }}" />
       <!-- Css -->
