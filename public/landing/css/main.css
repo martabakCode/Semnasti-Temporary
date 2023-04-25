@@ -82,22 +82,22 @@
 }
 @keyframes spinner-color {
     0%, 100% {
-        stroke: #399bff;
+        stroke: #394dff;
     }
     20% {
-        stroke: #ee71f9;
+        stroke: #b60000;
     }
     40% {
-        stroke: #399bff;
+        stroke: #394dff;
     }
     60% {
-        stroke: #ee71f9;
+        stroke: #b60000;
     }
     80% {
-        stroke: #399bff;
+        stroke: #394dff;
     }
     100% {
-        stroke: #ee71f9;
+        stroke: #b60000;
     }
 }
 @keyframes spinner-dash {
@@ -307,7 +307,7 @@ section.hero .inner-hero {
 .hero-content {
     position: relative;
     text-align: center;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -342,7 +342,7 @@ h1.large {
     position: relative;
 }
 .block-info-1 svg {
-    color: #399bff;
+    color: #394dff;
     font-size: 25px;
     position: absolute;
     transform: translateY(-50%);

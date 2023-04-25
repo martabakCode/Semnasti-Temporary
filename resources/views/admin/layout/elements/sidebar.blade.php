@@ -33,7 +33,7 @@
 			</li>
         </ul>
         <div class="copyright">
-            <p><strong>SEMNASTI <script>document.write(new Date().getFullYear())</script></strong>&copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #33475B;"> HMTI UDINUS</a> - Hak cipta dilindungi</p>
+            <p><strong>SEMNASTI <script>document.write(new Date().getFullYear())</script></strong>&copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #33475B;"> HM-TI UDINUS</a> - Hak cipta dilindungi</p>
             {{-- <p>Made with <span class="heart"></span> by DexignZone</p> --}}
         </div>
     </div>
