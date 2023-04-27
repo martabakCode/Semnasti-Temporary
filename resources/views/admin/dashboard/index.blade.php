@@ -42,7 +42,7 @@
         <div class="col-xl-12 col-md-6">
           <div class="card">
             <div class="card-header border-0 pb-0">
-              <h4 class="fs-20">Grafik Peserta</h4>
+              <h4 class="fs-20">Pembayaran Peserta</h4>
             </div>
             <div class="card-body">
               <div id="donutChart"></div>
@@ -51,23 +51,23 @@
                   <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="20" height="8" rx="4" fill="#214BB8"/>
                   </svg>
-                  <h4 class="fs-18 text-black mb-1 font-w600">21,512</h4>
-                  <span class="fs-14">Peserta</span>
+                  <h4 class="fs-18 text-black mb-1 font-w600" id="paid-payment">{{ $paid_registrant }}</h4>
+                  <span class="fs-14">Lunas</span>
                 </div>
                 <div class="pr-2">
                   <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="20" height="8" rx="4" fill="#FE634E"/>
+                    <rect width="20" height="8" rx="4" fill="#45ADDA"/>
                   </svg>
-                  <h4 class="fs-18 text-black mb-1 font-w600">45,612</h4>
-                  <span class="fs-14">Konfirmasi Kedatangan</span>
+                  <h4 class="fs-18 text-black mb-1 font-w600" id="pending-payment">{{ $payment_pending_registrant }}</h4>
+                  <span class="fs-14">Belum Membayar</span>
                 </div>
-                <div class="">
+                {{-- <div class="">
                   <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="20" height="8" rx="4" fill="#45ADDA"/>
                   </svg>
                   <h4 class="fs-18 text-black mb-1 font-w600">275</h4>
                   <span class="fs-14">Lunas</span>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>
@@ -147,7 +147,9 @@
         </div>
       </div>
     </div>
-    <div class="col-xl-9 col-xxl-8">
+
+
+    {{-- <div class="col-xl-9 col-xxl-8">
       <div class="row">
         <div class="col-12">
           <div class="card">
@@ -175,8 +177,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
   </div>
+
 </div>
 
-@endsection			
+@endsection
