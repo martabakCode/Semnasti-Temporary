@@ -24,11 +24,16 @@ class Registrant extends Model
         'arrival_confirmation',
         'arrival_status',
     ];
-
+    public function waOtp(){
+        return $this->hasOne(WaOtp::class, 'phone_number', 'phone_number');
+    }
+    public function waMessage(){
+        return $this->hasMany(WaMessage::class, 'registrant_id');
+    }
     public static function boot()
     {
         parent::boot();
-        
+
         $data_count = Registrant::count() + (1000+rand(99, 999));
         $code = "SM-$data_count";
 
@@ -48,7 +53,7 @@ class Registrant extends Model
                 $phone_number = substr($model->phone_number, 1);
                 $model->phone_number = "62{$phone_number}";
             }
-            
+
             if($model->isDirty('code')) {
                 $model->code = "#$code";
             }
