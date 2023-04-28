@@ -21,7 +21,7 @@ class WhatsappCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Ngirim pesan dari table wa_messages';
+    protected $description = 'Ngirim pesan dari table wa_messages (BROADCAST)';
 
     /**
      * Create a new command instance.
