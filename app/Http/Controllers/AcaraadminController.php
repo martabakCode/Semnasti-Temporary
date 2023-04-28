@@ -22,8 +22,8 @@ class AcaraadminController extends Controller
         
         $page_title = 'Event';
         $page_description = 'Some description for the page';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
 		
         $action = __FUNCTION__;
 
@@ -35,8 +35,8 @@ class AcaraadminController extends Controller
     {
         $page_title = 'Event Detail';
         $page_description = 'Some description for the page';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
 		
         $action = __FUNCTION__;
 
@@ -47,8 +47,8 @@ class AcaraadminController extends Controller
     {
         $page_title = 'Customers';
         $page_description = 'Here is your general customers list data';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
 		
         $action = __FUNCTION__;
 
@@ -59,8 +59,8 @@ class AcaraadminController extends Controller
     {
         $page_title = 'Analytics';
         $page_description = 'Some description for the page';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
 		
         $action = __FUNCTION__;
 
@@ -71,8 +71,8 @@ class AcaraadminController extends Controller
     {
         $page_title = 'Reviews';
         $page_description = 'Some description for the page';
-        $logo = "images/logo.png";
-        $logoText = "images/logo-text.png";
+        $logo = "landing/img/semnasti/favicon.svg";
+        $logoText = "SEMNASTI";
 		
         $action = __FUNCTION__;
 

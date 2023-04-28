@@ -1,8 +1,6 @@
 {{-- Extends layout --}}
 @extends('admin.layout.default')
 
-
-
 {{-- Content --}}
 @section('content')
     <div class="container-fluid">
@@ -20,8 +18,6 @@
             </div>
         </div>
         <!-- row -->
-
-
         <div class="row">
             <div class="col-12">
                 <div class="card">
@@ -31,13 +27,12 @@
                                 <thead>
                                     <tr>
                                         <th>Kode</th>
-                                        <th>Name</th>
-                                        <th>Whatsapp</th>
-
+                                        <th>Nama</th>
+                                        <th>WhatsApp</th>
+                                        <th>Asal Instansi</th>
                                         <th>Konfirmasi Kedatangan</th>
                                         <th>Status Pembayaran</th>
                                         <th>Kedatangan Hari H</th>
-                                        
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -66,20 +61,17 @@
                                 <input type="text" class="form-control" id="name" name="name">
                                 <div class="error text-danger"></div>
                             </div>
-
                             <div class="form-group" field="origin">
-                                <label for="origin" class="control-label">Asal:</label>
+                                <label for="origin" class="control-label">Asal Instansi:</label>
                                 <input type="origin" class="form-control" id="origin" name="origin">
                                 <div class="error text-danger"></div>
                             </div>
-
                             <div class="form-group" field="phone_number">
                                 <label for="phone_number" class="control-label">Whatsapp:</label>
                                 <input type="phone_number" class="form-control" id="phone_number" name="phone_number" value="62">
                                 <small>Dimulai dengan 62</small>
                                 <div class="error text-danger"></div>
                             </div>
-
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -126,7 +118,9 @@
                     {
                         data: 'phone_number'
                     },
-
+                    {
+                        data: 'origin'
+                    },
                     {
                         data: 'arrival_confirmation',
                         render: function(value, row, data) {
@@ -135,7 +129,7 @@
 
                             let option = `<div class="form-group mb-0">
                                 <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="1" ${checked_1}> Datang</label>
-                                <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="0" ${checked_0}> Tidack Datang</label>
+                                <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="0" ${checked_0}> Tidak Datang</label>
                             </div>`;
 
                             if(value == 1) {
@@ -147,7 +141,6 @@
                             }
                         }
                     },
-
                     {
                         data: 'payment_status',
                         render: function(value, row, data) {
@@ -164,7 +157,6 @@
                             }
                         }
                     },
-
                     {
                         data: 'arrival_status',
                         render: function(value, row, data) {
@@ -178,7 +170,6 @@
                             return option;
                         }
                     },
-
                     {
                         data: 'id',
                         render: function(value, row, data) {

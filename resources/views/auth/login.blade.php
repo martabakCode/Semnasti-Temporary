@@ -1,50 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Disdukcapil - Dinas Penduduk</title>
+    <title>Admin - SEMNASTI 2023</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('landing/img/semnasti/favicon.svg') }}">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            background: #fe634e;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .login-form {
+            background: #fff;
+            width: 500px;
+            margin: 65px auto;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            border-radius: 4px;
+            box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-form h1 {
+            padding: 35px 35px 0 35px;
+            font-weight: 300;
+        }
+
+        .login-form .content {
+            padding: 35px;
+            text-align: center;
+        }
+
+        .login-form .input-field {
+            padding: 12px 5px;
+        }
+
+        .login-form .input-field input {
+            font-size: 16px;
+            display: block;
+            font-family: 'Rubik', sans-serif;
+            width: 100%;
+            padding: 10px 1px;
+            border: 0;
+            border-bottom: 1px solid #747474;
+            outline: none;
+            -webkit-transition: all .2s;
+            transition: all .2s;
+        }
+
+        .login-form .input-field input::-webkit-input-placeholder {
+            text-transform: uppercase;
+        }
+
+        .login-form .input-field input::-moz-placeholder {
+            text-transform: uppercase;
+        }
+
+        .login-form .input-field input:-ms-input-placeholder {
+            text-transform: uppercase;
+        }
+
+        .login-form .input-field input::-ms-input-placeholder {
+            text-transform: uppercase;
+        }
+
+        .login-form .input-field input::placeholder {
+            text-transform: uppercase;
+        }
+
+        .login-form .input-field input:focus {
+            border-color: #222;
+        }
+
+        .login-form a.link {
+            text-decoration: none;
+            color: #747474;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .login-form .action {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            flex-direction: row;
+        }
+
+        .login-form .action button {
+            width: 100%;
+            border: none;
+            padding: 18px;
+            font-family: 'Rubik', sans-serif;
+            cursor: pointer;
+            text-transform: uppercase;
+            background: #af1400;
+            color: #e8e9ec;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 0;
+            letter-spacing: 0.2px;
+            outline: 0;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+
+        .login-form .action button:hover {
+            background: #ffb3a9;
+            color: #e8e9ec
+        }
+
+        .login-form .action button:nth-child(2) {
+            background: #2d3b55;
+            color: #fff;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 4px;
+        }
+
+        .login-form .action button:nth-child(2):hover {
+            background: #3c4d6d;
+        }
+    </style>
 </head>
+
 <body>
-    <form method="POST" action="{{ route('login') }}">
-        @csrf
-
-        <div class="row mb-3">
-            <label for="email" class="col-md-4 col-form-label text-md-end">NIK</label>
-
-            <div class="col-md-6">
-                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+    <!-- partial:index.partial.html -->
+    <div class="login-form">
+        <h1 style="text-align: center">Admin - SEMNASTI 2023</h1>
+        <div class="content">
+            <form method="POST" action="{{ route('login') }}" name="login-admin" id="login-admin">
+                @csrf
+                <div class="input-field">
+                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                </div>
                 @error('email')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
-            </div>
-        </div>
-
-        <div class="row mb-3" style="margin-top: 0.5rem">
-            <label for="password" class="col-md-4 col-form-label text-md-end">No KK</label>
-
-            <div class="col-md-6">
-                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
+                <div class="input-field">
+                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Password" name="password" required autocomplete="current-password">
+                </div>
                 @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
-            </div>
+            </form>
         </div>
+        <div class="action">
+            <button type="submit" class="btn btn-primary" form="login-admin">
+                Login
+            </button>
+        </div>
+    </div>
+    {{-- <script>
+        let form = document.querySelector('form');
 
-        <div class="row mb-0" style="margin-top: 0.5rem">
-            <div class="col-md-8 offset-md-4">
-                <button type="submit" class="btn btn-primary">
-                    Cek data penduduk sekarang
-                </button>
-            </div>
-        </div>
-    </form>
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            return false;
+        });
+    </script> --}}
+
+
 </body>
+
+
 </html>

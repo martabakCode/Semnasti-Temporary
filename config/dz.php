@@ -17,7 +17,7 @@ return [
 
 
 	'public' => [
-		'favicon' => 'media/img/logo/favicon.ico',
+		'favicon' => 'landing/img/semnasti/favicon.svg',
 		'fonts' => [
 			'google' => [
 				'families' => [
