@@ -21,7 +21,7 @@ function handle_next_input(event) {
       // console.log("SINIII")
         current.previousElementSibling.focus()
     }
-    if (index < 6 && mykey.indexOf("" + current.value + "") != -1) {
+    if (index < 6 && mykey.indexOf("" + event.target.value + "") != -1) {
       // console.log("SINIII1")
         var next = current.nextElementSibling;
         next.focus()

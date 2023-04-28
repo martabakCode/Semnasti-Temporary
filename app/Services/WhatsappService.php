@@ -10,7 +10,7 @@ class WhatsappService
 {
     public function http($method, $slug, $data = [], $file = null)
     {
-        $base_uri = 'https://wa-gateway-salman0ansari.herokuapp.com/';
+        $base_uri = 'https://wa-api-server.onrender.com/';
         $slug = $slug . "?key=semnasti-wanya-ketuplak-2";
 
         if ($method == 'get') {
