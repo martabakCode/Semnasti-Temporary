@@ -797,7 +797,7 @@
 <script src="{{ asset('landing/js/jquery.flexslider-min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('landing/js/jquery.countdown.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('landing/js/smooth-scroll.js') }}" type="text/javascript"></script>
-{{-- <script src="{{ asset('landing/js/jquery.validate.min.js') }}" type="text/javascript"></script> --}}
+<script src="{{ asset('landing/js/jquery.validate.min.js') }}" type="text/javascript"></script>
 {{-- <script src="{{ asset('landing/js/placeholders.min.js') }}" type="text/javascript"></script> --}}
 <script src="{{ asset('landing/js/venobox.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('landing/js/instafeed.min.js') }}" type="text/javascript"></script>
