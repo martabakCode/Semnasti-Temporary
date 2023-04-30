@@ -47,7 +47,9 @@ class WhatsappNotifCommand extends Command
         $pending_payment = $registrant->where('payment_status', 'pending')->count();
         $arrival_confirmation = $registrant->where('arrival_confirmation', 1)->count();
         $date = Carbon::now()->format('d M Y H:i');
-        WhatsappService::message("$user", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
+        for ($i=0; $i <= $user->count(); $i++) {
+            WhatsappService::message("$user", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
+        }
 
         return 0;
     }
