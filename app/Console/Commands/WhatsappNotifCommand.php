@@ -51,7 +51,8 @@ class WhatsappNotifCommand extends Command
         WhatsappService::message("6285727401089", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
         WhatsappService::message("6281299886754", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
         WhatsappService::message("6281334429348", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
-
+        WhatsappService::message("6287831029789", "=============================\nInfo Pendaftar $date\n=============================\n\nJumlah Semua: $count\nLunas: $success_payment\nNunggak: $pending_payment\nKonfirmasi Kedatangan: $arrival_confirmation");
+        
         return 0;
     }
 }
