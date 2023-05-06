@@ -562,7 +562,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket active">
-                                 <li>Pre-sale 1 (Sisa 10 Tiket)</li>
+                                 <li>Pre-sale 1 (Sisa 12 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
@@ -581,7 +581,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li>Pre-sale 1 (Sisa 10 Tiket)</li>
+                                 <li>Pre-sale 1 (Sisa 48 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
