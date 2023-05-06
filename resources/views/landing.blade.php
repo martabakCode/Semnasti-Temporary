@@ -274,8 +274,8 @@
                         <p>
                            <strong>Pembicara</strong>
                            <span>1. Hansen Gianto</span>
-                           <span>2. To Be Announce</span>
-                           <span>3. To Be Announce</span>
+                           <span>2. Announced Soon</span>
+                           <span>3. Announced Soon</span>
                         </p>
                      </div>
                   </div>
@@ -314,7 +314,7 @@
                         <div class="block-info-2">
                            <p>
                               <strong>Hansen Gianto</strong>
-                              <span>Founder & CEO Jadi Hacker</span>
+                              <span>Founder & Instructor Jadi Hacker</span>
                            </p>
                            <ul class="block-social">
                               <li><a href="https://github.com/hansengianto"><i class="icon-github"></i></a></li>
@@ -332,7 +332,7 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>To Be Announce</strong>
+                              <strong>Announced Soon</strong>
                               <span>???</span>
                            </p>
                            <ul class="block-social ">
@@ -351,7 +351,7 @@
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>To Be Announce</strong>
+                              <strong>Announced Soon</strong>
                               <span>???</span>
                            </p>
                            <ul class="block-social ">
@@ -460,7 +460,7 @@
                               <span class="topic">Daftar Ulang</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Informasi</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
+                                 <span class="speaker"> <strong >Informasi</strong> : <a href="#" class="gradient-text ">Announced Soon</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
@@ -468,7 +468,7 @@
                               <span class="topic">Pemaparan Materi</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Announced Soon</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
@@ -480,7 +480,7 @@
                               <span class="topic">Fun Games</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Announced Soon</a> </span>
                               </div>
                            </div>
                            <div class="block-detail">
@@ -488,7 +488,7 @@
                               <span class="topic">Penutupan Acara</span>
                               <div class="block-text">
                                  <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">To Be Announce</a> </span>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Announced Soon</a> </span>
                               </div>
                            </div>
                         </li>
@@ -562,7 +562,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket active">
-                                 <li>Pre-sale 1 (50 Tiket)</li>
+                                 <li>Pre-sale 1 (Sisa 10 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>30k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
@@ -581,7 +581,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li>Pre-sale 1 (50 Tiket)</li>
+                                 <li>Pre-sale 1 (Sisa 10 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
