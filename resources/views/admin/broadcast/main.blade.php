@@ -34,14 +34,14 @@
                                             <span>1</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                         <a class="nav-link" href="#button_config">
                                             <span>2</span>
                                         </a>
-                                    </li>
+                                    </li> --}}
                                     <li>
                                         <a class="nav-link" href="#registrant_list">
-                                            <span>3</span>
+                                            <span>2</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -55,7 +55,7 @@
                                                     <label class="text-label">Judul Broadcast*</label>
                                                     <input type="text" name="title" class="form-control"
                                                         placeholder="" required>
-                                                    <small class="text-danger">Jangan males isi anje-ng, ben memudahkan
+                                                    <small class="text-danger">Jangan males isi, ben memudahkan
                                                         identifikasi data</small>
                                                 </div>
                                             </div>
@@ -90,11 +90,11 @@
                                                                     <th>Keterangan</th>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>code</td>
+                                                                    <td>{code}</td>
                                                                     <td>Kode Pendaftaran</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>name</td>
+                                                                    <td>{name}</td>
                                                                     <td>Nama Pendaftar</td>
                                                                 </tr>
                                                             </table>
@@ -108,11 +108,11 @@
                                                                     <th>Keterangan</th>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>origin</td>
+                                                                    <td>{origin}</td>
                                                                     <td>Asal Pendaftar</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>phone_number</td>
+                                                                    <td>{phone_number}</td>
                                                                     <td>Whatsapp Pendaftar</td>
                                                                 </tr>
                                                             </table>
@@ -122,7 +122,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="button_config" class="tab-pane" role="tabpanel">
+                                    <div id="button_config" class="tab-pane" role="tabpanel" hidden>
                                         <h5>Konfirgurasi Tombol Daftar Aksi</h5>
                                         <hr>
                                         <div class="row">

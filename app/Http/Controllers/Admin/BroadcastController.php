@@ -94,6 +94,11 @@ class BroadcastController extends Controller
             ];
 
             $message = $request->message_format;
+            foreach ($textValues as $key => $value) {
+                $message = str_replace('{'.$key.'}', $value, $message);
+            }
+
+
             $list = $request->list;
 
             array_push($waMessage, [
