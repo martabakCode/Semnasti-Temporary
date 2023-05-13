@@ -100,6 +100,9 @@ class BroadcastController extends Controller
 
 
             $list = $request->list;
+            if(!$list) {
+                $list = [];
+            }
 
             array_push($waMessage, [
                 'broadcast_id'  => $broadcast->id,
