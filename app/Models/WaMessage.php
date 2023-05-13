@@ -15,7 +15,7 @@ class WaMessage extends Model
         'phone_number',
         'message',
         'footer',
-        'lists',
+        'list',
         'status',
         'failed_reason',
     ];
@@ -24,11 +24,11 @@ class WaMessage extends Model
         'send_invoice',
     ];
     protected $casts = [
-        'lists' => 'json'
+        'list' => 'json'
     ];
 
     public function getWithButtonAttribute() {
-        if($this->lists) {
+        if($this->list) {
             return true;
         }else {
             return false;

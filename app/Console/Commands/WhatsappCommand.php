@@ -49,7 +49,7 @@ class WhatsappCommand extends Command
             try {
                 if ($whatsapp->phone_number) {
 
-                    if(isset($whatsapp->lists[0])) {
+                    if(isset($whatsapp->list[0])) {
                         $proccess = WhatsappService::messageList($whatsapp->registrant->code, $whatsapp->phone_number, "Hi,",$whatsapp->message, $whatsapp->lists[0]);
                     } else {
                         $proccess = WhatsappService::message($whatsapp->phone_number, $whatsapp->message);

@@ -110,7 +110,7 @@ class BroadcastController extends Controller
                 'phone_number'  => $registrant->phone_number,
                 'message'       => $message,
                 'footer'        => config('event.name'),
-                'lists'        => json_encode($list)
+                // 'list'        => json_encode($list)
             ]);
         }
 
