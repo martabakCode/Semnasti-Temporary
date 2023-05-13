@@ -20,7 +20,7 @@ class CreateWaMessagesTable extends Migration
             $table->string('phone_number');
             $table->text('message'); // Isi pesan whatsapp
             $table->text('footer')->nullable(); // Isi pesan whatsapp
-            $table->json('list')->nullable(); // Custom list message
+            $table->json('lists')->nullable(); // Custom list message
             $table->enum('status', ['unproccessed', 'need_resend', 'success_send', 'failed_send'])->default('unproccessed'); // 0 = Gagal Terkirim, 1 = Terkirim
             $table->text('failed_reason')->nullable(); // Alasan gagal terkirim
             $table->timestamps();
