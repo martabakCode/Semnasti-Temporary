@@ -274,8 +274,8 @@
                         <p>
                            <strong>Pembicara</strong>
                            <span>1. Hansen Gianto</span>
-                           <span>2. Announced Soon</span>
-                           <span>3. Announced Soon</span>
+                           <span>2. Mohamad Endhy Aziz</span>
+                           <span>3. Budi Handoko</span>
                         </p>
                      </div>
                   </div>
@@ -328,16 +328,16 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/anonymous.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-2.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Announced Soon</strong>
-                              <span>???</span>
+                              <strong>Mohamad Endhy Aziz</strong>
+                              <span>Senior Cybersecurity Specialist BSSN (Badan Siber dan Sandi Negara)</span>
                            </p>
                            <ul class="block-social ">
-                              <li><a href="#"><i class="icon-twitter"></i></a></li>
-                              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                              {{-- <li><a href="#"><i class="icon-twitter"></i></a></li> --}}
+                              <li><a href="https://id.linkedin.com/in/mohamadendhy"><i class="icon-linkedin"></i></a></li>
                            </ul>
                         </div>
                      </div>
@@ -347,16 +347,17 @@
                   <div class="block-speaker">
                      <div class="block-img overlay soft">
                         <div class="background-img">
-                           <img src="{{ asset('landing/img/semnasti/anonymous.png') }}" alt="">
+                           <img src="{{ asset('landing/img/semnasti/speaker-3.png') }}" alt="">
                         </div>
                         <div class="block-info-2">
                            <p>
-                              <strong>Announced Soon</strong>
-                              <span>???</span>
+                              <strong>Budi Handoko</strong>
+                              <span>Admininstrator DiNusTech
+                                 </span>
                            </p>
                            <ul class="block-social ">
-                              <li><a href="#"><i class="icon-twitter"></i></a></li>
-                              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                              {{-- <li><a href="#"><i class="icon-twitter"></i></a></li> --}}
+                              <li><a href="https://www.linkedin.com/in/budi-handoko-9a699917"><i class="icon-linkedin"></i></a></li>
                            </ul>
                         </div>
                      </div>
@@ -562,7 +563,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket active">
-                                 <li>Pre-sale 1 (Sisa 12 Tiket)</li>
+                                 <li>Pre-sale 2 (Sisa 45 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
@@ -581,7 +582,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li>Pre-sale 1 (Sisa 48 Tiket)</li>
+                                 <li>Pre-sale 2 (Sisa 50 Tiket)</li>
                                  <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
