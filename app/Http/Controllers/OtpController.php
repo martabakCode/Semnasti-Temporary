@@ -47,14 +47,16 @@ class OtpController extends Controller
         Registrant::create($request->all());
 
         // WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil. Anda akan mendapatkan pemberitahuan lebih lanjut melalui whatsapp ini, anda juga dapat mengajukan pertanyaan melalui whatsapp ini\nTerima kasih.");
-        WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil.\nMohon segera kirimkan bukti pembayaran pada link dibawah ini : \nhttps://forms.gle/J4RWwT8EuZSpfze29\nUntuk pemberitahuan lebih lanjut akan dikirimkan melalui whatsapp ini.
+        // WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil.\nMohon segera kirimkan bukti pembayaran pada link dibawah ini : \nhttps://forms.gle/J4RWwT8EuZSpfze29\nUntuk pemberitahuan lebih lanjut akan dikirimkan melalui whatsapp ini.
         
-        Terima kasih.");
+        // Terima kasih.");
 
         // WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil. Anda akan mendapatkan pemberitahuan lebih lanjut melalui whatsapp ini, anda juga dapat mengajukan pertanyaan melalui whatsapp ini\nTerima kasih.");
-        WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil.\nMohon segera kirimkan bukti pembayaran pada link dibawah ini : \nhttps://forms.gle/J4RWwT8EuZSpfze29\nUntuk pemberitahuan lebih lanjut akan dikirimkan melalui whatsapp ini.
+        // WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil.\nMohon segera kirimkan bukti pembayaran pada link dibawah ini : \nhttps://forms.gle/J4RWwT8EuZSpfze29\nUntuk pemberitahuan lebih lanjut akan dikirimkan melalui whatsapp ini.
         
-        Terima kasih.");
+        // Terima kasih.");
+
+        WhatsappService::message($phone_number, "Pendaftaran anda telah berhasil.\nMohon segera kirimkan bukti pembayaran melalui bank yang telah tertera pada link dibawah ini : \n https://forms.gle/J4RWwT8EuZSpfze29 \nUntuk pemberitahuan lebih lanjut akan dikirimkan melalui whatsapp ini.\n\nTerima kasih.");
         
         return response()->json(['status' => 'success'], 200);
     }
