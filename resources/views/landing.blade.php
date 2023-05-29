@@ -541,7 +541,7 @@
                <!--Row-->
                <div class="row vertical-align tickets">
                   <div class="col-sm-4 ">
-                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan</span><br> 
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Dapatkan</span><br>
                         <span class="gradient-text">Harga spesial</span>
                      </h3>
                      <div class="review-slider flexslider">
@@ -639,9 +639,9 @@
                         </div>
                         <div class="col-sm-12">
                            <button class="but submit" type="submit">Pesan Tiket</button>
-                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
+                           {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
                               Launch demo modal
-                            </button>
+                            </button> --}}
                         </div>
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
@@ -720,8 +720,8 @@
                            Auditorium E3 (Gedung TVKU lantai 3)<br>
                            Universitas Dian Nuswantoro <br>
                            Jl. Imam Bonjol No.207 <br><br>
-                           <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Admin 1 - Qotrunnada: (62) 815 4237 2528</a></span> 
-                           <span class="text-white"><a class="text-white" href="https://wa.me/6289506373551">Admin 2 - Bagas Aditya: (62) 895 0637 3551</a></span> 
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6281542372528">Admin 1 - Qotrunnada: (62) 815 4237 2528</a></span>
+                           <span class="text-white"><a class="text-white" href="https://wa.me/6289506373551">Admin 2 - Bagas Aditya: (62) 895 0637 3551</a></span>
                         </p>
                      </div>
                   </div>
@@ -742,7 +742,7 @@
 
                   </div>
                </div>
-               <!--End container-->		
+               <!--End container-->
             </div>
          </footer>
          <!-- OTP Modal -->
@@ -781,7 +781,7 @@
    </body>
 </html>
 
-<!--Javascript-->	
+<!--Javascript-->
 <script src="{{ asset('landing/js/jquery-1.12.4.min.js') }}" type="text/javascript"></script>
 <script type="text/javascript">
    $.ajaxSetup({
@@ -790,7 +790,7 @@
        }
    });
 </script>
-   
+
 {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
