@@ -73,6 +73,7 @@ class RegistrantController extends Controller
         $resource = Registrant::create([
             'name' => $request->name,
             'origin' => $request->origin,
+            'email' => $request->email ?? NULL,
             'phone_number' => $request->phone_number
         ]);
 
@@ -123,7 +124,7 @@ class RegistrantController extends Controller
 
     public function customUpdate(Request $request, $id) {
         $registrant = Registrant::find($id);
-        
+
         $data[$request->field] = $request->value;
 
         if($request->field == 'payment_status') {
