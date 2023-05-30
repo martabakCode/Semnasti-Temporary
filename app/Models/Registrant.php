@@ -34,7 +34,7 @@ class Registrant extends Model
     {
         parent::boot();
 
-        $data_count = Registrant::count() + (1000+rand(99, 999));
+        $data_count = Registrant::count() + (1000+rand(999, 9999));
         $code = "SM-$data_count";
 
         static::creating(function ($model) use ($code) {
