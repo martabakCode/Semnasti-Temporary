@@ -639,9 +639,9 @@
                         </div>
                         <div class="col-sm-12">
                            <button class="but submit" type="submit">Pesan Tiket</button>
-                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
+                           <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
                               Launch demo modal
-                            </button>
+                           </button> -->
                         </div>
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
