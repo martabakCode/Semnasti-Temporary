@@ -30,6 +30,7 @@
                                         <th>Nama</th>
                                         <th>WhatsApp</th>
                                         <th>Asal Instansi</th>
+                                        <th>Tanggal Pesan</th>
                                         <th>Konfirmasi Kedatangan</th>
                                         <th>Status Pembayaran</th>
                                         <th>Kedatangan Hari H</th>
@@ -120,6 +121,9 @@
                     },
                     {
                         data: 'origin'
+                    },
+                    {
+                        data: 'created_at'
                     },
                     {
                         data: 'arrival_confirmation',
