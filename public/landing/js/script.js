@@ -5,7 +5,7 @@
 
     $(window).on("load", function() {
 
-        // Site loader
+        // Site loader 
 
         $(".loader-inner").fadeOut();
         $(".loader").delay(200).fadeOut("slow");
@@ -92,7 +92,7 @@
 
 
 
-    // Tabbed content
+    // Tabbed content 
 
     $(".block-tabs li").on("click", function() {
         if (!$(this).hasClass("active")) {
@@ -120,14 +120,14 @@
         $(this).addClass('active');
     });
 
-    // Images zoom
+    // Images zoom 
 
     $('.venobox').venobox({
         titleattr: 'data-title',
         numeratio: true
     });
 
-    // Form validation
+    // Form validation 
 
     var resgistryForm = $('#registration-form');
     resgistryForm.validate({
@@ -139,14 +139,13 @@
         },
         errorContainer: "#messageBox1, #messageBox2",
         errorLabelContainer: "#messageBox1 ul",
-        wrapper: "li",
+        wrapper: "li",      
         onfocusout: function(element, event) {
             $(element).valid();
         },
         submitHandler: function(form) {
-            // $('#otpModal').modal('show');
-            // requestOtp();
-            console.log($('#registration-form'));
+            $('#otpModal').modal('show');
+            requestOtp();
             return;
         },
         messages: {
@@ -160,14 +159,14 @@
             },
             phone_number: {
                 required: "No whatsapp tidak boleh kosong",
-                digits: "No whatsapp harus angka",
+                digits: "No whatsapp harus angka",          
             },
             origin : {
                 required: "Asal tidak boleh kosong",
                 minlength: "Asal minimal 3 huruf"
             }
         },
-
+        
         rules: {
             name: {
                 required: true,
@@ -179,7 +178,7 @@
             },
             phone_number: {
                 required: true,
-                digits: true
+                digits: true          
             },
             origin : {
                 required: true,
@@ -193,7 +192,7 @@
 })(jQuery);
 
 
-// Map setup
+// Map setup 
 
 function initializeMap() {
 
