@@ -11,7 +11,7 @@ class WhatsappService
     public function http($method, $slug, $data = [], $file = null)
     {
         // $base_uri = 'http://20.231.33.207:3002/';
-        $base_uri = 'http://cobain.eastus.cloudapp.azure.com:3002/';
+        $base_uri = 'http://43.134.65.5/';
         $slug = $slug . "?key=semnasti-wanya-ketuplak-2";
 
         if ($method == 'get') {

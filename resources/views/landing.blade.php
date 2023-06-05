@@ -569,12 +569,12 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket active">
-                                 <li>Pre-sale 2 (Sisa 45 Tiket)</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>40k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
+                                 <li>Reguler</li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type"><sup>*</sup>Untuk mahasiswa UDINUS</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
                                  <li>E-Sertifikat</li>
-                                 <li>Seminar KIT</li>
+                                 <li>Seminar Kit</li>
                                  <li>Doorprize</li>
                                  <li>Giveaway</li>
                                  <li>Relasi/Network</li>
@@ -588,12 +588,12 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li>Pre-sale 2 (Sisa 50 Tiket)</li>
-                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>50k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
+                                 <li>Reguler</li>
+                                 <li class="block-price"><span class="price"><span class="cur">Rp.</span>60k</span><span class="block-type"><sup>*</sup>Untuk peserta Umum</span></li>
                                  <li>Untuk 1 tiket</li>
                                  {{-- <li>Berbagai fasilitas menarik</li> --}}
                                  <li>E-Sertifikat</li>
-                                 <li>Seminar KIT</li>
+                                 <li>Seminar Kit</li>
                                  <li>Doorprize</li>
                                  <li>Giveaway</li>
                                  <li>Relasi/Network</li>
@@ -645,9 +645,9 @@
                         </div>
                         <div class="col-sm-12">
                            <button class="but submit" type="submit">Pesan Tiket</button>
-                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
+                           {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
                               Launch demo modal
-                            </button>
+                            </button> --}}
                         </div>
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
