@@ -515,6 +515,12 @@
                      <h1 class="title">Sisa waktu SEMNASTI 2023</h1>
                      <p class="title-lead mt-10 mb-20">10 Juni 2023 - Auditorium E3 Universitas Dian Nuswantoro - Jl. Imam Bonjol No.207  </p>
                      <span class="countdown gradient-text"></span>
+                     @php
+                        $registrantCount = App\Models\Registrant::count();
+                        $registrantRemaining = 300 - $registrantCount;
+                     @endphp
+                     <p>{{ $registrantCount }} registered</p>
+                     <p>{{ $registrantRemaining < 0 ? 0 : $registrantRemaining }} ticket left</p>
                   </div>
                </div>
                <!--End row-->
