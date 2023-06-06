@@ -795,7 +795,7 @@
                      </button>
                   </div>
                   <div class="modal-body">
-                     Maaf, pendaftaran SEMNASTI 2023 telah ditutup.
+                     <b>Maaf, pendaftaran SEMNASTI 2023 telah ditutup.</b>
                   </div>
                </div>
             </div>
