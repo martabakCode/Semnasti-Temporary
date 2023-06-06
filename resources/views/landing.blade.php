@@ -655,27 +655,27 @@
                         <div class="col-sm-12">
                            <p>* Kami tidak membagikan informasi anda kepada siapapun.</p>
                         </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="registerClose" tabindex="-1" role="dialog" aria-labelledby="registerCloseLabel" aria-hidden="true">
-                           <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                 <div class="modal-header">
-                                    <h5 class="modal-title text-warning" id="registerCloseLabel">Alert!</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                       <span aria-hidden="true">&times;</span>
-                                    </button>
-                                 </div>
-                                 <div class="modal-body">
-                                    Maaf, pendaftaran SEMNASTI 2023 telah ditutup.
-                                 </div>
-                                 <!-- <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                 </div> -->
+                     </form>
+                     <!-- Modal -->
+                     <div class="modal fade" id="registerClose" tabindex="-1" role="dialog" aria-labelledby="registerCloseLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title text-warning" id="registerCloseLabel">Alert!</h5>
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
                               </div>
+                              <div class="modal-body">
+                                 Maaf, pendaftaran SEMNASTI 2023 telah ditutup.
+                              </div>
+                              <!-- <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                 <button type="button" class="btn btn-primary">Save changes</button>
+                              </div> -->
                            </div>
                         </div>
-                     </form>
+                     </div>
                   </div>
                </div>
                <!--End row-->
