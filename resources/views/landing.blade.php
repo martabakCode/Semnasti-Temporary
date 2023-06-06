@@ -790,12 +790,12 @@
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <button type="button" class="close registerCloseClose" data-dismiss="modal" aria-label="Close" style="padding-top: 10px;padding-right: 10px;">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                      </button>
                   </div>
                   <div class="modal-body">
-                     <h1>Maaf, pendaftaran SEMNASTI 2023 telah ditutup.</h1>
+                     Maaf, pendaftaran SEMNASTI 2023 telah ditutup.
                   </div>
                </div>
             </div>
