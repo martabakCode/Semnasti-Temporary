@@ -785,27 +785,21 @@
                </div>
             </div>
          </div>
-         <!-- Modal -->
-         <div class="modal fade" id="registerClose" tabindex="-1" role="dialog" aria-labelledby="registerCloseLabel" aria-hidden="true">
+         <!-- Close Register Modal -->
+         <div class="modal fade" tabindex="-1" id="registerClose" aria-labelledby="registerCloseLabel" role="dialog">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title text-warning" id="registerCloseLabel">Alert!</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <button type="button" class="close registerCloseClose" data-dismiss="modal" aria-label="Close" style="padding-top: 10px;padding-right: 10px;">
                         <span aria-hidden="true">&times;</span>
                      </button>
                   </div>
                   <div class="modal-body">
-                     Maaf, pendaftaran SEMNASTI 2023 telah ditutup.
+                     <h1>Maaf, pendaftaran SEMNASTI 2023 telah ditutup.</h1>
                   </div>
-                  <!-- <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                     <button type="button" class="btn btn-primary">Save changes</button>
-                  </div> -->
                </div>
             </div>
          </div>
-      </div>
       <!-- End wrapper-->
    </body>
 </html>
