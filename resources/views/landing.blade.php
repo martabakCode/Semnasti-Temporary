@@ -515,6 +515,12 @@
                      <h1 class="title">Sisa waktu SEMNASTI 2023</h1>
                      <p class="title-lead mt-10 mb-20">10 Juni 2023 - Auditorium E3 Universitas Dian Nuswantoro - Jl. Imam Bonjol No.207  </p>
                      <span class="countdown gradient-text"></span>
+                     @php
+                        $registrantCount = App\Models\Registrant::count();
+                        $registrantRemaining = 300 - $registrantCount;
+                     @endphp
+                     <p>{{ $registrantCount }} registered</p>
+                     <p>{{ $registrantRemaining < 0 ? 0 : $registrantRemaining }} ticket left</p>
                   </div>
                </div>
                <!--End row-->
@@ -615,18 +621,18 @@
                <div class="row">
                   <div class="col-md-6 front-p">
                      <form class="registry-form form" method="post" action="#" id="registration-form">
-                        <h2 class="sub-title-1 mb-30">Daftar segera dalam acara Seminar Nasional Teknik Informatika 2023</h2>
+                        <h2 class="sub-title-1 mb-30">Daftar segera dalam acara Seminar Nasional Teknik Informatika 2023 <span style="color: red;">[Pendaftaran Ditutup]</span></h2>
                         <div class="col-md-6 col-sm-12">
-                           <input placeholder="Nama Anda" value="" id="name" name="name" type="text" required>
+                           <input placeholder="Nama Anda" value="" id="name" name="name" type="text" disabled>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                           <input placeholder="Nomor WhatsApp" value="" id="phone_number" name="phone_number" type="text" required>
+                           <input placeholder="Nomor WhatsApp" value="" id="phone_number" name="phone_number" type="text" disabled>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                           <input placeholder="Email Anda" value="" id="email" name="email" type="text" required>
+                           <input placeholder="Email Anda" value="" id="email" name="email" type="text" disabled>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                           <input placeholder="Asal Instansi" value="" id="origin" name="origin" type="text" required>
+                           <input placeholder="Asal Instansi" value="" id="origin" name="origin" type="text" disabled>
                         </div>
                         <div class="col-sm-12">
                            <div id="messageBox1">
@@ -638,7 +644,7 @@
                            </div>
                         </div>
                         <div class="col-sm-12">
-                           <button class="but submit" type="submit">Pesan Tiket</button>
+                           <button class="but submit" type="submit" disabled>Pesan Tiket</button>
                            {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otpModal">
                               Launch demo modal
                             </button> --}}
@@ -776,7 +782,6 @@
                </div>
             </div>
          </div>
-      </div>
       <!-- End wrapper-->
    </body>
 </html>
