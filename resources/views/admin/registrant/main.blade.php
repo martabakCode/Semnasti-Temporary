@@ -13,6 +13,8 @@
                 </ol>
             </div>
             <div>
+                <a type="button" class="btn btn-primary create"
+                href="{{ route('admin.registrant.export') }}">Download xlsx</a>
                 <button type="button" class="btn btn-primary create" data-toggle="modal"
                     data-target="#formModal">Tambah</button>
             </div>
@@ -69,7 +71,8 @@
                             </div>
                             <div class="form-group" field="phone_number">
                                 <label for="phone_number" class="control-label">Whatsapp:</label>
-                                <input type="phone_number" class="form-control" id="phone_number" name="phone_number" value="62">
+                                <input type="phone_number" class="form-control" id="phone_number" name="phone_number"
+                                    value="62">
                                 <small>Dimulai dengan 62</small>
                                 <div class="error text-danger"></div>
                             </div>
@@ -106,8 +109,7 @@
                     url: `{{ route('admin.' . $action . '.data') }}`,
                     type: 'GET',
                 },
-                columns: [
-                    {
+                columns: [{
                         data: 'code',
                         render: function(value, row, data) {
                             return `#${value}`;
@@ -136,11 +138,11 @@
                                 <label class="radio-inline mr-3"><input type="radio" class="update_status" name="arrival_confirmation" data-id="${data.id}" value="0" ${checked_0}> Tidak Datang</label>
                             </div>`;
 
-                            if(value == 1) {
+                            if (value == 1) {
                                 return `<div class="badge badge-sm badge-primary">Datang</div> ${option}`;
-                            } else if(value == 0) {
+                            } else if (value == 0) {
                                 return `<div class="badge badge-sm badge-warning">Tidak Datang</div> ${option}`;
-                            } else if(value == null) {
+                            } else if (value == null) {
                                 return `<div class="badge badge-sm badge-warning">Belum Konfirmasi</div> ${option}`;
                             }
                         }
@@ -148,13 +150,14 @@
                     {
                         data: 'payment_status',
                         render: function(value, row, data) {
-                            let checked_1 = data.payment_status == 'success' ? 'checked="true"' : '';
+                            let checked_1 = data.payment_status == 'success' ? 'checked="true"' :
+                            '';
 
                             let option = `<div class="form-group mb-0">
                                 <label class="radio-inline mr-3"><input type="radio" class="update_status" name="payment_status" data-id="${data.id}" value="success" ${checked_1}> Lunas</label>
                             </div>`;
 
-                            if(value == 'success') {
+                            if (value == 'success') {
                                 return `<div class="badge badge-sm badge-success">Terbayar</div>`;
                             } else {
                                 return `<div class="badge badge-sm badge-warning">Menunggu</div> ${option}`;
@@ -187,7 +190,7 @@
                 ],
             });
 
-            $("#table tbody").on("click", 'input[type="radio"]', function () {
+            $("#table tbody").on("click", 'input[type="radio"]', function() {
                 const e = $(this);
                 // alert(e.attr('name'));
 
@@ -198,7 +201,7 @@
                         field: e.attr('name'),
                         value: e.val()
                     },
-                    success: function (res) {
+                    success: function(res) {
                         $("#table").DataTable().ajax.reload();
                         Swal.fire(
                             "Oke!",
@@ -209,7 +212,7 @@
                 });
             });
 
-            
+
         });
     </script>
 @endsection
