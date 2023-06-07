@@ -10,6 +10,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\RegistrantExport;
+use Illuminate\Support\Carbon;
 
 class RegistrantController extends Controller
 {
@@ -145,5 +148,10 @@ class RegistrantController extends Controller
         return response()->json([
             'status' => 'berhasil, berhasil, hore hore'
         ], 200);
+    }
+    public function export()
+    {
+        $time = Carbon::now();
+        return Excel::download(new RegistrantExport, 'Peserta SEMNASTI '. $time. '.xlsx');
     }
 }
